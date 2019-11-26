@@ -13,7 +13,7 @@ def get_driver():
                           "appActivity": "com.kdweibo.android.ui.activity.StartActivity",#"com.kingdee.eas.eclite.ui.login.LoginActivity", #adb shell dumpsys window windows | findstr “Current”
                           "udid": "127.0.0.1:21503",
                            "app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk",
-                           'noReset': 'true',
+                           'noReset': 'false',
                           "unicodeKeyboard": 'true',
                           "resetKeyboard": 'true',
                           "noSign": 'true',
@@ -53,77 +53,111 @@ def swipe_on(direction):
         swipe_right()
 
 driver = get_driver()
+
 swipe_on('left')
 swipe_on('left')
 swipe_on('left')
 swipe_on('right')
 
 
-def login():
+# def login():
     #登录
-    get_by_local = FindElement(driver)
+get_by_local = FindElement(driver)
 
-    get_by_local.get_element('login_button_one').click()
-    get_by_local.get_element('username').send_keys("kingdeetestv3")
-    get_by_local.get_element('password').send_keys("a1234567")
-    get_by_local.get_element('login_button').click()
+get_by_local.get_element('login_button_one').click()
+get_by_local.get_element('username').send_keys("kingdeetestv3")
+get_by_local.get_element('password').send_keys("a1234567")
+get_by_local.get_element('login_button').click()
 
-
-    # driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/"
-    #                      "android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText").send_keys("kingdeetestv3")
-    #
-    # driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout"
-    #                      "/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText").send_keys("a1234567")
-
-#driver.find_element_by_id("com.kingdee.jdy:id/login").click()
-login()
+get_by_local.get_element('menu_yingyong_button').click()
 
 
 
+# login()
+
+#做采购单
+get_by_local.get_element_cg('caigou').click()
+get_by_local.get_element_cg('xzgongyingshang_button').click()
+get_by_local.get_element_cg('xzgongyingshang').click()
+get_by_local.get_element_cg('xzshangping_button').click()
+get_by_local.get_element_cg('xzcangku').click()
+get_by_local.get_element_cg('1haocang').click()
+get_by_local.get_element_cg('xzshangp1').click()
+get_by_local.get_element_cg('jia1').click()
+get_by_local.get_element_cg('jiarugouwuche_button').click()
+get_by_local.get_element_cg('xzshangp2').click()
+get_by_local.get_element_cg('jia2').click()
+get_by_local.get_element_cg('jiarugouwuche_button').click()
+get_by_local.get_element_cg('xuanzehaole_button').click()
+get_by_local.get_element_cg('bill_remake').send_keys('This is a test.')
+get_by_local.get_element_cg('commit_button').click()
+
+driver.get_screenshot_as_file('./data/test.png')
+
+get_by_local.get_element_cg('back').click()
 
 
 
-#开单
-driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout"
-                         "/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View[1]/android.widget.ListView/android.widget.RelativeLayout"
-                         "/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.support.v4.view.ViewPager/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]").click()
+get_by_local.get_element('menu_shouye_button').click()
 
-driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
-                         "/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[2]/android.widget.TextView").click()
-
-
-
-
-driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
-                         "/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[5]/android.widget.TextView[2]").click()
-
-driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView"
-                         "/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout"
-                         "/android.widget.RelativeLayout/android.widget.TextView[2]").click()
-
-driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
-                         "/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]/android.widget.TextView").click()
-#选择仓库
-driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView"
-                         "/android.widget.FrameLayout[1]/android.widget.TextView").click()
+#销售开单
+get_by_local.get_element_xs('xiaoshou').click()
+get_by_local.get_element_xs('xzkehu').click()
+get_by_local.get_element_xs('kehu1').click()
+get_by_local.get_element_xs('xzshangping_button').click()
+get_by_local.get_element_xs('xzcangku').click()
+get_by_local.get_element_xs('xzshangp1').click()
+get_by_local.get_element_xs('jiarugouwuche_button').click()
+get_by_local.get_element_xs('xuanzehaole_button').click()
+get_by_local.get_element_xs('commit_button').click()
+get_by_local.get_element_xs('back').click()
 
 
-driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]"
-                             "/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout").click()
 
+#销售
+# driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout"
+#                          "/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View[1]/android.widget.ListView/android.widget.RelativeLayout"
+#                          "/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.support.v4.view.ViewPager/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]").click()
+#
+#
+#
+#
+#选择客户
+# driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
+#                          "/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[2]/android.widget.TextView").click()
+#
+#
+#客户1
+# driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
+#                          "/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[5]/android.widget.TextView[2]").click()
+#商品
+# driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView"
+#                          "/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout"
+#                          "/android.widget.RelativeLayout/android.widget.TextView[2]").click()
+#
+# driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
+#                          "/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]/android.widget.TextView").click()
+# #选择仓库
+# driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView"
+#                          "/android.widget.FrameLayout[1]/android.widget.TextView").click()
+#
+#选择商品
+# driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]"
+#                              "/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout").click()
+#
+#确定
+# driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout"
+#                              "/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView").click()
+#
+#加入购物车
+# driver.find_element_by_id("com.kingdee.jdy:id/tv_choose_confirm").click()
+# #保存
+#
+# driver.find_element_by_id("com.kingdee.jdy:id/tv_commit").click()
 
-driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout"
-                             "/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.TextView").click()
-
-
-driver.find_element_by_id("com.kingdee.jdy:id/tv_choose_confirm").click()
-#保存
-
-driver.find_element_by_id("com.kingdee.jdy:id/tv_commit").click()
-
-t=baoCunChengGongPage.sale_finish(driver)
-
-publicFunction.objDisplay(driver,t)
+# t=baoCunChengGongPage.sale_finish(driver)
+#
+# publicFunction.objDisplay(driver)
 
 
 

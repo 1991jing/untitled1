@@ -22,3 +22,36 @@ class FindElement():
         except:
             return None
 
+    def get_element_cg(self, key):
+        read_int = ReadIni(node='caigou_element')
+        data = read_int.get_value(key)
+        by = data.split('>')[0]
+        value = data.split('>')[1]
+        try:
+            if by == 'id':
+                return self.driver.find_element_by_id(value)
+            elif by == 'name':
+                return self.driver.find_element_by_name(value)
+            elif by == 'className':
+                return self.driver.find_element_by_class_name(value)
+            else:
+                return self.driver.find_element_by_xpath(value)
+        except:
+            return None
+
+    def get_element_xs(self, key):
+        read_int = ReadIni(node='xiaoshou_element')
+        data = read_int.get_value(key)
+        by = data.split('>')[0]
+        value = data.split('>')[1]
+        try:
+            if by == 'id':
+                return self.driver.find_element_by_id(value)
+            elif by == 'name':
+                return self.driver.find_element_by_name(value)
+            elif by == 'className':
+                return self.driver.find_element_by_class_name(value)
+            else:
+                return self.driver.find_element_by_xpath(value)
+        except:
+            return None

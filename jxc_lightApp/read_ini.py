@@ -22,7 +22,7 @@ class ReadIni():
         return data
 # 获取value的值
 if __name__ == '__main__':
-    read_init = ReadIni()
-    print(read_init.get_value('login_button_one'))
+    read_init = ReadIni(node='caigou_element')
+    print(read_init.get_value('caigou'))
 
 
