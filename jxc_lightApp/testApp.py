@@ -1,8 +1,16 @@
+import sys
+
 from appium import webdriver
-from time import sleep
-#from  selenium import webdriver
-from jxc_lightApp import publicFunction,baoCunChengGongPage
-from jxc_lightApp.findElement import FindElement
+
+from jxc_lightApp.util.dos_cmd import DosCmd
+# from  selenium import webdriver
+from jxc_lightApp.util.findElement import FindElement
+
+dos = DosCmd()
+
+dos.excute_cmd('start appium -p 4700 -bp 4701 -U 127.0.0.1:21503')
+
+
 
 def get_driver():
     desired_caps = {
@@ -74,25 +82,29 @@ get_by_local.get_element('menu_yingyong_button').click()
 
 
 # login()
-
+try:
 #做采购单
-get_by_local.get_element_cg('caigou').click()
-get_by_local.get_element_cg('xzgongyingshang_button').click()
-get_by_local.get_element_cg('xzgongyingshang').click()
-get_by_local.get_element_cg('xzshangping_button').click()
-get_by_local.get_element_cg('xzcangku').click()
-get_by_local.get_element_cg('1haocang').click()
-get_by_local.get_element_cg('xzshangp1').click()
-get_by_local.get_element_cg('jia1').click()
-get_by_local.get_element_cg('jiarugouwuche_button').click()
-get_by_local.get_element_cg('xzshangp2').click()
-get_by_local.get_element_cg('jia2').click()
-get_by_local.get_element_cg('jiarugouwuche_button').click()
-get_by_local.get_element_cg('xuanzehaole_button').click()
-get_by_local.get_element_cg('bill_remake').send_keys('This is a test.')
-get_by_local.get_element_cg('commit_button').click()
+    get_by_local.get_element_cg('caigou').click()
+    get_by_local.get_element_cg('xzgongyingshang_button').click()
+    get_by_local.get_element_cg('xzgongyingshang').click()
+    get_by_local.get_element_cg('xzshangping_button').click()
+    get_by_local.get_element_cg('xzcangku').click()
+    get_by_local.get_element_cg('1haocang').click()
+    get_by_local.get_element_cg('xzshangp1').click()
+    get_by_local.get_element_cg('jia1').click()
+    get_by_local.get_element_cg('jiarugouwuche_button').click()
+    get_by_local.get_element_cg('xzshangp2').click()
+    get_by_local.get_element_cg('jia2').click()
+    get_by_local.get_element_cg('jiarugouwuche_button').click()
+    get_by_local.get_element_cg('xuanzehaole_button').click()
+    get_by_local.get_element_cg('bill_remake').send_keys('This is a test.')
+    get_by_local.get_element_cg('commit_button').click()
+    get_by_local.get_element_cg('caigoulishi_button').text
 
-driver.get_screenshot_as_file('./data/test.png')
+
+
+except:
+    driver.get_screenshot_as_file('./data/test.png')
 
 get_by_local.get_element_cg('back').click()
 
@@ -100,6 +112,7 @@ get_by_local.get_element_cg('back').click()
 
 get_by_local.get_element('menu_shouye_button').click()
 
+# try:
 #销售开单
 get_by_local.get_element_xs('xiaoshou').click()
 get_by_local.get_element_xs('xzkehu').click()
@@ -111,7 +124,10 @@ get_by_local.get_element_xs('jiarugouwuche_button').click()
 get_by_local.get_element_xs('xuanzehaole_button').click()
 get_by_local.get_element_xs('commit_button').click()
 get_by_local.get_element_xs('back').click()
-
+if sys.exc_info()[0]:
+    driver.get_screenshot_as_file('./data/test3.png')
+# except:
+#     driver.get_screenshot_as_file('./data/test2.png')
 
 
 #销售

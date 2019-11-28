@@ -1,4 +1,4 @@
-from jxc_lightApp.findElement import FindElement
+from jxc_lightApp.util.findElement import FindElement
 
 class LoginPageEle():
     def __init__(self,driver):
@@ -8,6 +8,4 @@ class LoginPageEle():
         return self.fd.get_element('username')
 
 
-if __name__ == '__main__':
-    lE=LoginPageEle()
 
