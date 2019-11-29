@@ -1,5 +1,5 @@
 # coding=utf-8
-from jxc_lightApp.handdle.login_handle import LoginHandle
+from jxc_lightApp.handdle.oper_handle import LoginHandle
 
 
 class LoginBusiness(object):
@@ -7,7 +7,11 @@ class LoginBusiness(object):
         self.login_handle = LoginHandle()
 
     def login_button_one_click(self):
-        self.login_handle.get_loginone_button()
+        self.login_handle.click_loginone_button()
+
+    def get_click_menu_yingyong_button(self):
+        self.login_handle.click_menu_yingyong_button()
+
 
     def login_pass(self):
 

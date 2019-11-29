@@ -3,6 +3,7 @@ from HTMLTestRunner import *
 import unittest
 from jxc_lightApp.case import test_login_case
 from jxc_lightApp.util.server import Server
+import time,os,sys,time
 # testunit=unittest.defaultTestLoader.discover("../case",pattern="test*.py")
 #
 # try:
@@ -16,6 +17,10 @@ from jxc_lightApp.util.server import Server
 #     print("----------All Done!-------")
 # except:
 #     print("Error!!!!!!!")
+NowTime = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+filename = os.path.join(os.getcwd(), "report\\result_" + NowTime + ".html")
+filePath = u'C:\\Users\\Administrator\\PycharmProjects\\untitled1\\jxc_lightApp\\report\\Report.html'  # 确定生成报告的路径
+
 
 def appium_init():
     server = Server()
@@ -25,7 +30,6 @@ def get_suite():
     testunit = unittest.defaultTestLoader.discover("../case", pattern="test*.py")
 
     # try:
-    filePath = u'C:\\Users\\Administrator\\PycharmProjects\\untitled1\\jxc_lightApp\\report\\Report.html'  # 确定生成报告的路径
     fp = open(filePath, 'wb')
     runner = HTMLTestRunner(stream=fp, title=u'自动化测试报告', description='APP登陆功能用例测试结果')
     # 运行测试用例
@@ -33,12 +37,13 @@ def get_suite():
     fp.close()
     print("")
     print("----------All Done!-------")
-# except:
-    #     print("Error!!!!!!!")
+    # except:
+    #         print("Error!!!!!!!")
 
         # unittest.TextTestRunner().run(suite)
 
 appium_init()
+time.sleep(8)
 get_suite()
 
 import smtplib
@@ -49,7 +54,7 @@ from jxc_lightApp.case.test_login_case import *
 
 
 
-f=open(u'C:\\Users\\Administrator\\PycharmProjects\\untitled1\\jxc_lightApp\\report\\Report.html',"rb")
+f=open(filePath,"rb")
 mail_body=f.read()
 f.close()
 
