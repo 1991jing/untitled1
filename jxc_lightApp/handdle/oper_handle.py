@@ -85,5 +85,55 @@ class LoginHandle:
     def  bill_get(self):
         self.login_page.get_commit_button_element().click()
 
+    def click_cg_chakandanju(self):
+        self.login_page.get_chakan_button_elemenet().click()
+
     def click_back(self):
         self.login_page.get_back_element().click()
+
+    def click_shenhe(self):
+        self.login_page.get_shenhe_button_element().click()
+
+
+
+
+    #销售操作
+    def click_xiaoshou(self):
+        self.login_page.xs_xiaoshou_element().click()
+
+    def click_xs_xzkehu(self):
+        self.login_page.xs_xzkehu_element().click()
+
+    def click_xs_kehu1(self):
+        self.login_page.xs_kehu1_element().click()
+
+    def click_xs_xzshangping_button(self):
+        self.login_page.xs_xzshangping_button_element().click()
+
+    def click_xs_xzcangku(self):
+        self.login_page.xs_xzcangku_element().click()
+
+    def click_xs_cangku(self):
+        self.login_page.xs_cangku_element().click()
+
+    def click_xs_xzshangping1(self):
+        self.login_page.xs_xzshangp1_element().click()
+
+    def click_xs_jiarugouwuche_button(self):
+        self.login_page.xs_jiarugouwuche_button_element().click()
+
+    def click_xs_xuanzehaole_button(self):
+        self.login_page.xs_xuanzehaole_button_element().click()
+
+    def click_xs_commit_button(self):
+        self.login_page.xs_commit_button_element().click()
+
+    def click_xs_back(self):
+        self.login_page.xs_back_element().click()
+
+    def xs_bill_remake_message(self,message):
+        self.login_page.get_bill_remake_element().send_keys(message)
+
+
+
+

@@ -50,11 +50,15 @@ class CaigouBusiness(object):
         self.caigou_handle.add_to_cart()
         #选择好了
         self.caigou_handle.get_goodschoice()
-        self.caigou_handle.bill_remake_message("this is a Appium test.")
+        self.caigou_handle.bill_remake_message("this is a Appium purchase order test.")
         #下单
         self.caigou_handle.bill_get()
-        #返回
-        self.caigou_handle.click_back()
+        #审核
+        self.caigou_handle.click_cg_chakandanju()
+        self.caigou_handle.click_shenhe()
 
+        #返回
+        # self.caigou_handle.click_back()
+        #
 
 

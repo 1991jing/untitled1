@@ -146,14 +146,14 @@ if sys.exc_info()[0]:
 #客户1
 # driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
 #                          "/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[5]/android.widget.TextView[2]").click()
-#商品
+#新增商品
 # driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView"
 #                          "/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout"
 #                          "/android.widget.RelativeLayout/android.widget.TextView[2]").click()
-#
+#选择仓库
 # driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
 #                          "/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]/android.widget.TextView").click()
-# #选择仓库
+# #仓库
 # driver.find_element_by_xpath("	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView"
 #                          "/android.widget.FrameLayout[1]/android.widget.TextView").click()
 #

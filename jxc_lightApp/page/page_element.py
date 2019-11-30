@@ -58,7 +58,7 @@ class LoginPage(object):
 
         return self.fd.get_element('login_button_one')
 
-##采购页面的元素
+    ##采购页面的元素
     def get_menu_yingyong_button_element(self):
         return self.fd.get_element('menu_yingyong_button')
 
@@ -104,6 +104,64 @@ class LoginPage(object):
     def get_back_element(self):
         return self.fd.get_element(key='back',meg='caigou_element')
 
+    def get_chakan_button_elemenet(self):
+        return self.fd.get_element(key='chakan_button',meg='caigou_element')
+
+    def get_caigoulishi_button_elemnt(self):
+        return  self.fd.get_element(key='caigoulishi_button',meg='caigou_element')
+
+    def get_jixukaidan_button_element(self):
+        return self.fd.get_element(key='jixukaidan_button',meg='caigou_element')
+
+    def get_shenhe_button_element(self):
+        return self.fd.get_element(key='shenhe_button',meg='caigou_element')
+
+
+#销售页面元素
+    def xs_xiaoshou_element(self):
+        return self.fd.get_element(key='xiaoshou',meg='xiaoshou_element')
+
+    def xs_xzkehu_element(self):
+        return self.fd.get_element(key='xzkehu',meg='xiaoshou_element')
+
+    def xs_kehu1_element(self):
+        return self.fd.get_element(key='kehu1',meg='xiaoshou_element')
+
+    def xs_xzshangping_button_element(self):
+        return self.fd.get_element(key='xzshangping_button',meg='xiaoshou_element')
+
+    def xs_xzcangku_element(self):
+        return self.fd.get_element(key='xzcangku',meg='xiaoshou_element')
+
+    def xs_cangku_element(self):
+        return self.fd.get_element(key='cangku',meg='xiaoshou_element')
+
+    def xs_xzshangp1_element(self):
+        return self.fd.get_element(key='shangp1',meg='xiaoshou_element')
+
+    def xs_jiarugouwuche_button_element(self):
+        return self.fd.get_element(key='jiarugouwuche_button',meg='xiaoshou_element')
+
+    def xs_xuanzehaole_button_element(self):
+        return self.fd.get_element(key='xuanzehaole_button',meg='xiaoshou_element')
+
+    def xs_commit_button_element(self):
+        return self.fd.get_element(key='commit_button',meg='xiaoshou_element')
+
+    def xs_back_element(self):
+        return self.fd.get_element(key='back',meg='xiaoshou_element')
+
+    def xs_get_chakan_button_elemenet(self):
+        return self.fd.get_element(key='chakan_button',meg='xiaoshou_element')
+
+    def xs_get_caigoulishi_button_elemnt(self):
+        return  self.fd.get_element(key='caigoulishi_button',meg='xiaoshou_element')
+
+    def xs_get_jixukaidan_button_element(self):
+        return self.fd.get_element(key='jixukaidan_button',meg='xiaoshou_element')
+
+    def xs_get_beizhu(self):
+        return self.fd.get_element(key='bill_remark',meg='xiaoshou_element')
 
 
 if __name__ == '__main__':

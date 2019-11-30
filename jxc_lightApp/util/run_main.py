@@ -5,6 +5,12 @@ from jxc_lightApp.case import test_login_case
 from jxc_lightApp.util.server import Server
 import time,os,sys,time
 # testunit=unittest.defaultTestLoader.discover("../case",pattern="test*.py")
+
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+PathProject = os.path.split(rootPath)[0]
+sys.path.append(rootPath)
+sys.path.append(PathProject)
 #
 # try:
 #     filePath = u'C:\\Users\\Administrator\\PycharmProjects\\untitled1\\jxc_lightApp\\report\\Report.html'  # 确定生成报告的路径

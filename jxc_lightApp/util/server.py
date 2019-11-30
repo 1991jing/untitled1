@@ -41,7 +41,8 @@ class Server:
         生成命令
         '''
         # appium -p 4700 -bp 4701 -U 127.0.0.1:21503
-        command_list=u"start appium -p 4700 -bp 4701 -U 127.0.0.1:21503 --log C:/Users/Administrator/PycharmProjects/untitled1/jxc_lightApp/log/test_log.log"
+        command_list=u"start appium -p 4700 -bp 4701 -U 127.0.0.1:21503"
+        #         - -log C:/Users/Administrator/PycharmProjects/untitled1/jxc_lightApp/log/test_log.log
         # command_list = []
         # appium_port_list = self.create_port_list(4700)
         # bootstrap_port_list = self.create_port_list(4900)

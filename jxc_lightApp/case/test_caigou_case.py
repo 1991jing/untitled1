@@ -46,7 +46,6 @@ class CaseTest(ParameTestCase):
         if sys.exc_info()[0]:
             self.caigou_buiness.caigou_handle.login_page.driver.save_screenshot("../data/test033.png")
         time.sleep(1)
-        self.caigou_buiness.caigou_handle.login_page.driver.close()
 
     @classmethod
     def tearDownClass(cls):
