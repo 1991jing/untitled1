@@ -1,4 +1,4 @@
-import  jxc_lightApp
+import  v7jxc_auto
 import os,sys
 
 curPath = os.path.abspath(os.path.dirname(__file__))

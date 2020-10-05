@@ -1,0 +1,1318 @@
+2019-11-30 06:28:42:492 [Appium] Welcome to Appium v1.15.1
+2019-11-30 06:28:42:495 [Appium] Non-default server args:
+2019-11-30 06:28:42:497 [Appium]   port: 4700
+2019-11-30 06:28:42:498 [Appium]   bootstrapPort: 4701
+2019-11-30 06:28:42:502 [Appium]   logFile: C:/Users/Administrator/PycharmProjects/untitled1/jxc_lightApp/log/test_log.log
+2019-11-30 06:28:42:503 [Appium]   udid: 127.0.0.1:21503
+2019-11-30 06:28:42:505 [Appium] Deprecated server args:
+2019-11-30 06:28:42:506 [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2019-11-30 06:28:42:508 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-11-30 06:28:42:509 [Appium]   udid: 127.0.0.1:21503
+2019-11-30 06:28:42:571 [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-11-30 06:28:43:580 [HTTP] --> POST /wd/hub/session
+2019-11-30 06:28:43:611 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"9","appium:deviceName":"SM-G9350","appium:appPackage":"com.kingdee.jdy","appium:appActivity":"com.kdweibo.android.ui.activity.StartActivity","appium:udid":"127.0.0.1:21503","appium:app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","appium:noReset":"false","appium:unicodeKeyboard":"true","appium:resetKeyboard":"true","appium:noSign":"true","appium:recreateChromeDriverSessions":"true","appium:automationName":"UiAutomator1"}]},"desiredCapabilities":{"platformName":"Android","platformVersion":"9","deviceName":"SM-G9350","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":"false","unicodeKeyboard":"true","resetKeyboard":"true","noSign":"true","recreateChromeDriverSessions":"true","automationName":"UiAutomator1"}}
+2019-11-30 06:28:43:754 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"9","deviceName":"SM-G9350","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":"false","unicodeKeyboard":"true","resetKeyboard":"true","noSign":"true","recreateChromeDriverSessions":"true","automationName":"UiAutomator1"},null,{"firstMatch":[{"platformName":"Android","appium:platformVersion":"9","appium:deviceName":"SM-G9350","appium:appPackage":"com.kingdee.jdy","appium:appActivity":"com.kdweibo.android.ui.activity.StartActivity","appium:udid":"127.0.0.1:21503","appium:app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","appium:noReset":"false","appium:unicodeKeyboard":"true","appium:resetKeyboard":"true","appium:noSign":"true","appium:recreateChromeDriverSessions":"true","appium:automationName":"UiAutomator1"}]}]
+2019-11-30 06:28:43:775 [BaseDriver] Event 'newSessionRequested' logged at 1575095323754 (14:28:43 GMT+0800 (GMT+08:00))
+2019-11-30 06:28:45:263 [Appium] Appium v1.15.1 creating new AndroidDriver (v4.20.1) session
+2019-11-30 06:28:45:285 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-11-30 06:28:45:295 [BaseDriver] Creating session with W3C capabilities: {
+2019-11-30 06:28:45:302 [BaseDriver]   "alwaysMatch": {
+2019-11-30 06:28:45:309 [BaseDriver]     "platformName": "Android",
+2019-11-30 06:28:45:354 [BaseDriver]     "appium:platformVersion": "9",
+2019-11-30 06:28:45:369 [BaseDriver]     "appium:deviceName": "SM-G9350",
+2019-11-30 06:28:45:383 [BaseDriver]     "appium:appPackage": "com.kingdee.jdy",
+2019-11-30 06:28:45:395 [BaseDriver]     "appium:appActivity": "com.kdweibo.android.ui.activity.StartActivity",
+2019-11-30 06:28:45:410 [BaseDriver]     "appium:udid": "127.0.0.1:21503",
+2019-11-30 06:28:45:420 [BaseDriver]     "appium:app": "C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk",
+2019-11-30 06:28:45:437 [BaseDriver]     "appium:noReset": "false",
+2019-11-30 06:28:45:447 [BaseDriver]     "appium:unicodeKeyboard": "true",
+2019-11-30 06:28:45:461 [BaseDriver]     "appium:resetKeyboard": "true",
+2019-11-30 06:28:45:473 [BaseDriver]     "appium:noSign": "true",
+2019-11-30 06:28:45:489 [BaseDriver]     "appium:recreateChromeDriverSessions": "true",
+2019-11-30 06:28:45:495 [BaseDriver]     "appium:automationName": "UiAutomator1"
+2019-11-30 06:28:45:507 [BaseDriver]   },
+2019-11-30 06:28:45:516 [BaseDriver]   "firstMatch": [
+2019-11-30 06:28:45:524 [BaseDriver]     {}
+2019-11-30 06:28:45:533 [BaseDriver]   ]
+2019-11-30 06:28:45:549 [BaseDriver] }
+2019-11-30 06:28:45:560 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:28:45:568 [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:28:45:573 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:28:45:582 [BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:28:45:592 [BaseDriver] Session created with session id: 64703bb7-f9b1-409c-a0d0-4fb9df85ff97
+2019-11-30 06:28:45:648 [ADB] Found 1 'build-tools' folders under 'D:\adt-bundle-windows-x86_64-20140702\sdk' (newest first):
+2019-11-30 06:28:45:664 [ADB]     D:/adt-bundle-windows-x86_64-20140702/sdk/build-tools/android-4.4W
+2019-11-30 06:28:45:672 [ADB] Using 'adb.exe' from 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe'
+2019-11-30 06:28:45:689 [AndroidDriver] Retrieving device list
+2019-11-30 06:28:45:699 [ADB] Trying to find a connected android device
+2019-11-30 06:28:45:705 [ADB] Getting connected devices...
+2019-11-30 06:28:46:148 [ADB] Connected devices: [{"udid":"127.0.0.1:21503","state":"device"}]
+2019-11-30 06:28:46:164 [AndroidDriver] Using device: 127.0.0.1:21503
+2019-11-30 06:28:46:182 [ADB] Using 'adb.exe' from 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe'
+2019-11-30 06:28:46:196 [ADB] Setting device id to 127.0.0.1:21503
+2019-11-30 06:28:46:222 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.sdk'
+2019-11-30 06:28:46:677 [ADB] Current device property 'ro.build.version.sdk': 22
+2019-11-30 06:28:46:683 [ADB] Device API level: 22
+2019-11-30 06:28:46:697 [BaseDriver] Using local app 'C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk'
+2019-11-30 06:28:46:717 [AndroidDriver] Checking whether app is actually present
+2019-11-30 06:28:46:733 [AndroidDriver] Starting Android session
+2019-11-30 06:28:46:742 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 wait-for-device'
+2019-11-30 06:28:47:283 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell echo ping'
+2019-11-30 06:28:47:773 [AndroidDriver] Pushing settings apk to device...
+2019-11-30 06:28:47:778 [ADB] Getting install status for io.appium.settings
+2019-11-30 06:28:47:803 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-11-30 06:28:48:246 [ADB] 'io.appium.settings' is installed
+2019-11-30 06:28:48:253 [ADB] Getting package info for 'io.appium.settings'
+2019-11-30 06:28:48:283 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-11-30 06:28:48:827 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+2019-11-30 06:28:48:847 [ADB] There is no need to install/upgrade 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.15.0@io.appium.settings\apks\settings_apk-debug.apk'
+2019-11-30 06:28:48:850 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-11-30 06:28:48:852 [ADB] Using ps-based PID detection
+2019-11-30 06:28:48:862 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ps'
+2019-11-30 06:28:49:295 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-11-30 06:28:49:318 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings put secure mock_location 1'
+2019-11-30 06:28:50:126 [Logcat] Starting logcat capture
+2019-11-30 06:28:50:629 [AndroidDriver] Enabling Unicode keyboard support
+2019-11-30 06:28:50:655 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings get secure default_input_method'
+2019-11-30 06:28:51:718 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2019-11-30 06:28:51:727 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-11-30 06:28:51:737 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ime enable io.appium.settings/.UnicodeIME'
+2019-11-30 06:28:52:582 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ime set io.appium.settings/.UnicodeIME'
+2019-11-30 06:28:53:341 [ADB] Getting device platform version
+2019-11-30 06:28:53:354 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.release'
+2019-11-30 06:28:53:857 [ADB] Current device property 'ro.build.version.release': 5.1.1
+2019-11-30 06:28:53:871 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell wm size'
+2019-11-30 06:28:54:660 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.model'
+2019-11-30 06:28:55:075 [ADB] Current device property 'ro.product.model': SM-G9350
+2019-11-30 06:28:55:084 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.manufacturer'
+2019-11-30 06:28:55:583 [ADB] Current device property 'ro.product.manufacturer': samsung
+2019-11-30 06:28:55:597 [ADB] Getting install status for com.kingdee.jdy
+2019-11-30 06:28:55:615 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.kingdee.jdy'
+2019-11-30 06:28:56:052 [ADB] 'com.kingdee.jdy' is installed
+2019-11-30 06:28:56:057 [ADB] Getting package info for 'com.kingdee.jdy'
+2019-11-30 06:28:56:084 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.kingdee.jdy'
+2019-11-30 06:28:56:556 [ADB] The version name of the installed 'com.kingdee.jdy' is greater or equal to the application version name ('6.5.2' >= '6.5.2')
+2019-11-30 06:28:56:564 [ADB] There is no need to install/upgrade 'C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk'
+2019-11-30 06:28:56:567 [AndroidDriver] Performing fast reset on 'com.kingdee.jdy'
+2019-11-30 06:28:56:574 [ADB] Getting install status for com.kingdee.jdy
+2019-11-30 06:28:56:587 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.kingdee.jdy'
+2019-11-30 06:28:57:079 [ADB] 'com.kingdee.jdy' is installed
+2019-11-30 06:28:57:113 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop com.kingdee.jdy'
+2019-11-30 06:28:57:942 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm clear com.kingdee.jdy'
+2019-11-30 06:28:59:134 [AndroidDriver] Performed fast reset on the installed 'com.kingdee.jdy' application (stop and clear)
+2019-11-30 06:28:59:159 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell rm -rf /data/local/tmp/strings.json'
+2019-11-30 06:28:59:660 [AndroidDriver] Extracting strings from apk
+2019-11-30 06:28:59:692 [AndroidDriver] C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk
+2019-11-30 06:28:59:697 [AndroidDriver] null
+2019-11-30 06:28:59:705 [AndroidDriver] C:\Users\ADMINI~1\AppData\Local\Temp\com.kingdee.jdy
+2019-11-30 06:28:59:711 [ADB] Extracting strings from for language: default
+2019-11-30 06:28:59:721 [ADB] Using 'aapt.exe' from 'D:\adt-bundle-windows-x86_64-20140702\sdk\build-tools\android-4.4W\aapt.exe'
+2019-11-30 06:29:00:758 [ADB] Successfully extracted 2044 strings from 'C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk' resources for '(default)' configuration
+2019-11-30 06:29:00:791 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell mkdir -p /data/local'
+2019-11-30 06:29:01:362 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\com.kingdee.jdy\\strings.json /data/local/tmp'
+2019-11-30 06:29:01:954 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-11-30 06:29:01:970 [ADB] Forwarding system: 4701 to device: 4724
+2019-11-30 06:29:01:981 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 forward tcp\:4701 tcp\:4724'
+2019-11-30 06:29:02:511 [UiAutomator] Starting UiAutomator
+2019-11-30 06:29:02:531 [UiAutomator] Moving to state 'starting'
+2019-11-30 06:29:02:541 [UiAutomator] Parsing uiautomator jar
+2019-11-30 06:29:02:549 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-11-30 06:29:02:567 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell mkdir -p /data/local'
+2019-11-30 06:29:03:052 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.20.1\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-11-30 06:29:03:554 [ADB] Attempting to kill all uiautomator processes
+2019-11-30 06:29:03:565 [ADB] Getting IDs of all 'uiautomator' processes
+2019-11-30 06:29:03:570 [ADB] Using ps-based PID detection
+2019-11-30 06:29:03:586 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ps'
+2019-11-30 06:29:04:113 [ADB] No 'uiautomator' process has been found
+2019-11-30 06:29:04:138 [UiAutomator] Starting UIAutomator
+2019-11-30 06:29:04:165 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21503","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.kingdee.jdy","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-11-30 06:29:04:827 [UiAutomator] Moving to state 'online'
+2019-11-30 06:29:04:835 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-11-30 06:29:04:848 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-11-30 06:29:04:879 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-11-30 06:29:04:888 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys window'
+2019-11-30 06:29:04:979 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-11-30 06:29:05:388 [AndroidDriver] Screen already unlocked, doing nothing
+2019-11-30 06:29:05:440 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n com.kingdee.jdy/com.kdweibo.android.ui.activity.StartActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-11-30 06:29:10:311 [Appium] New AndroidDriver session created successfully, session 64703bb7-f9b1-409c-a0d0-4fb9df85ff97 added to master session list
+2019-11-30 06:29:10:318 [BaseDriver] Event 'newSessionStarted' logged at 1575095350313 (14:29:10 GMT+0800 (GMT+08:00))
+2019-11-30 06:29:10:334 [W3C (64703bb7)] Cached the protocol value 'W3C' for the new session 64703bb7-f9b1-409c-a0d0-4fb9df85ff97
+2019-11-30 06:29:10:382 [W3C (64703bb7)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"9","deviceName":"SM-G9350","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"noSign":true,"recreateChromeDriverSessions":"true","automationName":"UiAutomator1"},"platformName":"Android","platformVersion":"5.1.1","deviceName":"127.0.0.1:21503","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"noSign":true,"recreateChromeDriverSessions":"tru...
+2019-11-30 06:29:10:403 [HTTP] <-- POST /wd/hub/session 200 26854 ms - 1235
+2019-11-30 06:29:10:409 [HTTP] 
+2019-11-30 06:29:10:448 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/timeouts
+2019-11-30 06:29:10:456 [HTTP] {"implicit":5000}
+2019-11-30 06:29:10:479 [W3C (64703bb7)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:10:491 [BaseDriver] W3C timeout argument: {"implicit":5000}}
+2019-11-30 06:29:10:510 [BaseDriver] Set implicit wait to 5000ms
+2019-11-30 06:29:10:522 [W3C (64703bb7)] Responding to client with driver.timeouts() result: null
+2019-11-30 06:29:10:540 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/timeouts 200 102 ms - 14
+2019-11-30 06:29:10:552 [HTTP] 
+2019-11-30 06:29:10:589 [HTTP] --> GET /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/window/rect
+2019-11-30 06:29:10:625 [HTTP] {}
+2019-11-30 06:29:10:682 [W3C (64703bb7)] Calling AppiumDriver.getWindowRect() with args: ["64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:10:701 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-11-30 06:29:10:741 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-11-30 06:29:10:763 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:10:780 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-11-30 06:29:10:896 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2019-11-30 06:29:10:997 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:11:031 [W3C (64703bb7)] Responding to client with driver.getWindowRect() result: {"width":720,"height":1280,"x":0,"y":0}
+2019-11-30 06:29:11:061 [HTTP] <-- GET /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/window/rect 200 474 ms - 49
+2019-11-30 06:29:11:087 [HTTP] 
+2019-11-30 06:29:11:113 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/touch/perform
+2019-11-30 06:29:11:205 [HTTP] {"actions":[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}]}
+2019-11-30 06:29:11:289 [W3C (64703bb7)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}],"64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:11:352 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:29:11:371 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:29:11:381 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:11:391 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-11-30 06:29:11:445 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:29:11:477 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:29:11:484 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=648.0, y=640.0] to [x=72.0, y=640.0] with steps: 22
+2019-11-30 06:29:12:487 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:12:520 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:12:580 [W3C (64703bb7)] Responding to client with driver.performTouch() result: true
+2019-11-30 06:29:12:636 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/touch/perform 200 1492 ms - 14
+2019-11-30 06:29:12:647 [HTTP] 
+2019-11-30 06:29:12:695 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/touch/perform
+2019-11-30 06:29:12:743 [HTTP] {"actions":[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}]}
+2019-11-30 06:29:12:769 [W3C (64703bb7)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}],"64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:12:787 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:29:12:809 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:29:12:820 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:12:833 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-11-30 06:29:12:851 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:29:12:872 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:29:12:884 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=648.0, y=640.0] to [x=72.0, y=640.0] with steps: 22
+2019-11-30 06:29:13:556 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:13:569 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:13:586 [W3C (64703bb7)] Responding to client with driver.performTouch() result: true
+2019-11-30 06:29:13:643 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/touch/perform 200 933 ms - 14
+2019-11-30 06:29:13:663 [HTTP] 
+2019-11-30 06:29:13:684 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/touch/perform
+2019-11-30 06:29:13:733 [HTTP] {"actions":[{"action":"press","options":{"x":72,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":648,"y":640}},{"action":"release","options":{}}]}
+2019-11-30 06:29:13:775 [W3C (64703bb7)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":72,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":648,"y":640}},{"action":"release","options":{}}],"64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:13:800 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":72,"startY":640,"endX":648,"endY":640,"steps":22}}
+2019-11-30 06:29:13:831 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":72,"startY":640,"endX":648,"endY":640,"steps":22}}
+2019-11-30 06:29:13:850 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:13:859 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-11-30 06:29:13:870 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:29:13:894 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:29:13:902 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=72.0, y=640.0] to [x=648.0, y=640.0] with steps: 22
+2019-11-30 06:29:14:376 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:14:397 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:14:412 [W3C (64703bb7)] Responding to client with driver.performTouch() result: true
+2019-11-30 06:29:14:433 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/touch/perform 200 748 ms - 14
+2019-11-30 06:29:14:448 [HTTP] 
+2019-11-30 06:29:14:485 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:14:496 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/login"}
+2019-11-30 06:29:14:526 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/login","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:14:553 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:14:566 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:14:593 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/login","context":"","multiple":false}}
+2019-11-30 06:29:14:630 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/login","context":"","multiple":false}}
+2019-11-30 06:29:14:655 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:14:666 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:14:684 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/login' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:14:735 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/login]
+2019-11-30 06:29:15:634 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2019-11-30 06:29:15:757 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:15:805 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+2019-11-30 06:29:15:838 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1356 ms - 67
+2019-11-30 06:29:15:856 [HTTP] 
+2019-11-30 06:29:15:939 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/1/click
+2019-11-30 06:29:16:131 [HTTP] {"id":"1"}
+2019-11-30 06:29:16:178 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["1","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:16:210 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-11-30 06:29:16:249 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-11-30 06:29:16:256 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:16:270 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:17:107 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:17:129 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:17:144 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:17:170 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/1/click 200 1283 ms - 14
+2019-11-30 06:29:17:177 [HTTP] 
+2019-11-30 06:29:17:206 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:17:268 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText"}
+2019-11-30 06:29:17:313 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:17:347 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:17:383 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:17:455 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:29:17:564 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:29:17:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:17:625 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:17:638 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:17:787 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+2019-11-30 06:29:17:883 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2019-11-30 06:29:17:910 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:17:936 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+2019-11-30 06:29:17:945 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 758 ms - 67
+2019-11-30 06:29:17:952 [HTTP] 
+2019-11-30 06:29:17:985 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/2/value
+2019-11-30 06:29:18:011 [HTTP] {"text":"kingdeetestv3","value":["k","i","n","g","d","e","e","t","e","s","t","v","3"],"id":"2"}
+2019-11-30 06:29:18:089 [W3C (64703bb7)] Calling AppiumDriver.setValue() with args: [["k","i","n","g","d","e","e","t","e","s","t","v","3"],"2","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:18:116 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"kingdeetestv3","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:29:18:228 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"kingdeetestv3","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:29:18:276 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:18:295 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:29:18:318 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2019-11-30 06:29:18:375 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:29:20:604 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2019-11-30 06:29:20:678 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2019-11-30 06:29:20:682 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: kingdeetestv3
+2019-11-30 06:29:23:102 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:23:129 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:23:141 [W3C (64703bb7)] Responding to client with driver.setValue() result: true
+2019-11-30 06:29:23:166 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/2/value 200 5188 ms - 14
+2019-11-30 06:29:23:178 [HTTP] 
+2019-11-30 06:29:23:200 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:23:223 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText"}
+2019-11-30 06:29:23:243 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:23:254 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:23:263 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:23:285 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:29:23:350 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:29:23:361 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:23:365 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:23:386 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:23:391 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=1]
+2019-11-30 06:29:23:641 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2019-11-30 06:29:23:698 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:23:780 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}
+2019-11-30 06:29:23:793 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 601 ms - 67
+2019-11-30 06:29:23:800 [HTTP] 
+2019-11-30 06:29:23:923 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/3/value
+2019-11-30 06:29:23:954 [HTTP] {"text":"a1234567","value":["a","1","2","3","4","5","6","7"],"id":"3"}
+2019-11-30 06:29:24:049 [W3C (64703bb7)] Calling AppiumDriver.setValue() with args: [["a","1","2","3","4","5","6","7"],"3","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:24:087 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"a1234567","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:29:24:100 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"a1234567","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:29:24:110 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:24:152 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:29:24:185 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 3
+2019-11-30 06:29:24:335 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:29:26:501 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: a1234567
+2019-11-30 06:29:28:865 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:28:881 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:28:889 [W3C (64703bb7)] Responding to client with driver.setValue() result: true
+2019-11-30 06:29:28:912 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/3/value 200 5089 ms - 14
+2019-11-30 06:29:28:928 [HTTP] 
+2019-11-30 06:29:28:934 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:28:949 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button"}
+2019-11-30 06:29:28:991 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:29:001 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:29:012 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:29:041 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","context":"","multiple":false}}
+2019-11-30 06:29:29:069 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","context":"","multiple":false}}
+2019-11-30 06:29:29:087 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:29:092 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:29:114 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:29:120 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2019-11-30 06:29:29:440 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2019-11-30 06:29:29:502 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:29:525 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4","ELEMENT":"4"}
+2019-11-30 06:29:29:542 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 597 ms - 67
+2019-11-30 06:29:29:699 [HTTP] 
+2019-11-30 06:29:29:865 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/4/click
+2019-11-30 06:29:29:881 [HTTP] {"id":"4"}
+2019-11-30 06:29:29:993 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["4","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:30:080 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2019-11-30 06:29:30:159 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2019-11-30 06:29:30:185 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:30:267 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:30:710 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:30:795 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:30:809 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:30:836 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/4/click 200 1110 ms - 14
+2019-11-30 06:29:30:856 [HTTP] 
+2019-11-30 06:29:33:877 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:33:959 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.GridView/android.widget.LinearLayout[2]"}
+2019-11-30 06:29:34:096 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.GridView/android.widget.LinearLayout[2]","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:34:167 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:34:205 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:34:252 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.GridView/android.widget.LinearLayout[2]","context":"","multiple":false}}
+2019-11-30 06:29:34:289 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.GridView/android.widget.LinearLayout[2]","context":"","multiple":false}}
+2019-11-30 06:29:34:299 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:34:310 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:34:332 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.GridView/android.widget.LinearLayout[2]' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:35:096 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.LinearLayout, INSTANCE=38]
+2019-11-30 06:29:35:267 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2019-11-30 06:29:35:276 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:35:291 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5","ELEMENT":"5"}
+2019-11-30 06:29:35:316 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1477 ms - 67
+2019-11-30 06:29:35:330 [HTTP] 
+2019-11-30 06:29:35:346 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/5/click
+2019-11-30 06:29:35:367 [HTTP] {"id":"5"}
+2019-11-30 06:29:35:375 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["5","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:35:398 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2019-11-30 06:29:35:497 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+2019-11-30 06:29:35:520 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:35:528 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:37:531 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:37:556 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:37:569 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:37:579 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/5/click 200 2233 ms - 14
+2019-11-30 06:29:37:592 [HTTP] 
+2019-11-30 06:29:37:648 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:37:743 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]"}
+2019-11-30 06:29:37:819 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:37:874 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:37:933 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:38:079 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]","context":"","multiple":false}}
+2019-11-30 06:29:38:151 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]","context":"","multiple":false}}
+2019-11-30 06:29:38:155 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:38:183 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:38:238 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:38:399 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.LinearLayout, INSTANCE=15]
+2019-11-30 06:29:38:758 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2019-11-30 06:29:38:835 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:38:907 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6","ELEMENT":"6"}
+2019-11-30 06:29:38:951 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1311 ms - 67
+2019-11-30 06:29:39:048 [HTTP] 
+2019-11-30 06:29:39:123 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/6/click
+2019-11-30 06:29:39:154 [HTTP] {"id":"6"}
+2019-11-30 06:29:39:199 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["6","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:39:277 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2019-11-30 06:29:39:363 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2019-11-30 06:29:39:433 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:39:485 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:40:183 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:40:214 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:40:226 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:40:266 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/6/click 200 1176 ms - 14
+2019-11-30 06:29:40:275 [HTTP] 
+2019-11-30 06:29:40:340 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:40:370 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/tv_select_customer"}
+2019-11-30 06:29:40:398 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/tv_select_customer","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:40:420 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:40:434 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:40:477 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_select_customer","context":"","multiple":false}}
+2019-11-30 06:29:40:505 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_select_customer","context":"","multiple":false}}
+2019-11-30 06:29:40:526 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:40:538 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:40:573 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_select_customer' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:40:591 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_select_customer]
+2019-11-30 06:29:40:800 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2019-11-30 06:29:40:890 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:41:016 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7","ELEMENT":"7"}
+2019-11-30 06:29:41:048 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 741 ms - 67
+2019-11-30 06:29:41:224 [HTTP] 
+2019-11-30 06:29:41:316 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/7/click
+2019-11-30 06:29:41:353 [HTTP] {"id":"7"}
+2019-11-30 06:29:41:387 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["7","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:41:540 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2019-11-30 06:29:41:582 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2019-11-30 06:29:41:619 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:41:646 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:42:540 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:42:590 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:42:603 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:42:652 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/7/click 200 1377 ms - 14
+2019-11-30 06:29:42:659 [HTTP] 
+2019-11-30 06:29:42:707 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:42:741 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[2]"}
+2019-11-30 06:29:42:788 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[2]","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:42:822 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:42:839 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:42:880 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[2]","context":"","multiple":false}}
+2019-11-30 06:29:42:959 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[2]","context":"","multiple":false}}
+2019-11-30 06:29:42:964 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:42:966 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:42:981 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.TextView[2]' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:42:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=5]
+2019-11-30 06:29:43:467 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2019-11-30 06:29:43:478 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:43:547 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8","ELEMENT":"8"}
+2019-11-30 06:29:43:566 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 881 ms - 67
+2019-11-30 06:29:43:648 [HTTP] 
+2019-11-30 06:29:43:794 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/8/click
+2019-11-30 06:29:43:824 [HTTP] {"id":"8"}
+2019-11-30 06:29:43:976 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["8","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:44:019 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2019-11-30 06:29:44:065 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2019-11-30 06:29:44:082 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:44:099 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:44:290 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:44:341 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:44:354 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:44:389 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/8/click 200 703 ms - 14
+2019-11-30 06:29:44:403 [HTTP] 
+2019-11-30 06:29:44:421 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:44:441 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/rl_choose_product"}
+2019-11-30 06:29:44:464 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/rl_choose_product","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:44:482 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:44:489 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:44:543 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/rl_choose_product","context":"","multiple":false}}
+2019-11-30 06:29:44:571 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/rl_choose_product","context":"","multiple":false}}
+2019-11-30 06:29:44:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:44:591 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:44:603 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/rl_choose_product' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:44:616 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/rl_choose_product]
+2019-11-30 06:29:44:954 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2019-11-30 06:29:45:059 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:45:143 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9","ELEMENT":"9"}
+2019-11-30 06:29:45:156 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 739 ms - 67
+2019-11-30 06:29:45:367 [HTTP] 
+2019-11-30 06:29:45:448 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/9/click
+2019-11-30 06:29:45:456 [HTTP] {"id":"9"}
+2019-11-30 06:29:45:478 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["9","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:45:537 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+2019-11-30 06:29:45:551 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+2019-11-30 06:29:45:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:45:590 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:46:284 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:46:322 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:46:348 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:46:393 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/9/click 200 980 ms - 14
+2019-11-30 06:29:46:419 [HTTP] 
+2019-11-30 06:29:46:462 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:46:492 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/fl_depot"}
+2019-11-30 06:29:46:504 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/fl_depot","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:46:544 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:46:567 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:46:640 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/fl_depot","context":"","multiple":false}}
+2019-11-30 06:29:46:672 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/fl_depot","context":"","multiple":false}}
+2019-11-30 06:29:46:697 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:46:704 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:46:717 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/fl_depot' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:46:734 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/fl_depot]
+2019-11-30 06:29:46:997 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-11-30 06:29:47:027 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/fl_depot' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:47:062 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/fl_depot]
+2019-11-30 06:29:47:117 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-11-30 06:29:47:155 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:47:170 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-11-30 06:29:47:313 [BaseDriver] Waited for 712 ms so far
+2019-11-30 06:29:47:870 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/fl_depot","context":"","multiple":false}}
+2019-11-30 06:29:47:910 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/fl_depot","context":"","multiple":false}}
+2019-11-30 06:29:47:933 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:47:959 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:47:983 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/fl_depot' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:48:018 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/fl_depot]
+2019-11-30 06:29:48:770 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2019-11-30 06:29:48:984 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:49:042 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10","ELEMENT":"10"}
+2019-11-30 06:29:49:080 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 2625 ms - 69
+2019-11-30 06:29:49:120 [HTTP] 
+2019-11-30 06:29:49:167 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/10/click
+2019-11-30 06:29:49:201 [HTTP] {"id":"10"}
+2019-11-30 06:29:49:218 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["10","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:49:261 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2019-11-30 06:29:49:300 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2019-11-30 06:29:49:308 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:49:320 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:50:089 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:50:099 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:50:105 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:50:119 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/10/click 200 985 ms - 14
+2019-11-30 06:29:50:137 [HTTP] 
+2019-11-30 06:29:50:151 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:50:197 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.TextView"}
+2019-11-30 06:29:50:230 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.TextView","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:50:252 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:50:264 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:50:290 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.TextView","context":"","multiple":false}}
+2019-11-30 06:29:50:328 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.TextView","context":"","multiple":false}}
+2019-11-30 06:29:50:332 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:50:350 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:50:371 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.TextView' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:50:376 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+2019-11-30 06:29:50:446 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+2019-11-30 06:29:50:469 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:50:496 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"11","ELEMENT":"11"}
+2019-11-30 06:29:50:514 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 358 ms - 69
+2019-11-30 06:29:50:518 [HTTP] 
+2019-11-30 06:29:50:540 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/11/click
+2019-11-30 06:29:50:565 [HTTP] {"id":"11"}
+2019-11-30 06:29:50:619 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["11","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:50:650 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2019-11-30 06:29:50:707 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2019-11-30 06:29:50:757 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:50:778 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:51:185 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:51:192 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:51:231 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:51:249 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/11/click 200 712 ms - 14
+2019-11-30 06:29:51:262 [HTTP] 
+2019-11-30 06:29:51:290 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:51:337 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout"}
+2019-11-30 06:29:51:397 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:51:423 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:51:445 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:51:483 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout","context":"","multiple":false}}
+2019-11-30 06:29:51:524 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout","context":"","multiple":false}}
+2019-11-30 06:29:51:553 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:51:586 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:51:647 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:51:684 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-11-30 06:29:51:754 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:51:779 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:51:811 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-11-30 06:29:51:859 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-11-30 06:29:51:872 [BaseDriver] Waited for 416 ms so far
+2019-11-30 06:29:52:406 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout","context":"","multiple":false}}
+2019-11-30 06:29:52:465 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout","context":"","multiple":false}}
+2019-11-30 06:29:52:472 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:52:495 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:52:549 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:52:746 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.LinearLayout, INSTANCE=13]
+2019-11-30 06:29:52:809 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:52:838 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+2019-11-30 06:29:52:893 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12","ELEMENT":"12"}
+2019-11-30 06:29:52:903 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1630 ms - 69
+2019-11-30 06:29:52:915 [HTTP] 
+2019-11-30 06:29:52:947 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/12/click
+2019-11-30 06:29:52:961 [HTTP] {"id":"12"}
+2019-11-30 06:29:52:977 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["12","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:53:000 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+2019-11-30 06:29:53:029 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+2019-11-30 06:29:53:037 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:53:054 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:53:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:53:429 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:53:454 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:53:516 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/12/click 200 539 ms - 14
+2019-11-30 06:29:53:525 [HTTP] 
+2019-11-30 06:29:53:629 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:53:672 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/img_plus"}
+2019-11-30 06:29:53:732 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/img_plus","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:53:769 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:53:818 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:53:850 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/img_plus","context":"","multiple":false}}
+2019-11-30 06:29:53:912 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/img_plus","context":"","multiple":false}}
+2019-11-30 06:29:53:918 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:53:935 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:53:958 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/img_plus' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:53:980 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/img_plus]
+2019-11-30 06:29:54:217 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+2019-11-30 06:29:54:226 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:54:257 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"13","ELEMENT":"13"}
+2019-11-30 06:29:54:276 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 730 ms - 69
+2019-11-30 06:29:54:292 [HTTP] 
+2019-11-30 06:29:54:342 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/13/click
+2019-11-30 06:29:54:363 [HTTP] {"id":"13"}
+2019-11-30 06:29:54:389 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["13","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:54:413 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"13"}}
+2019-11-30 06:29:54:439 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"13"}}
+2019-11-30 06:29:54:455 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:54:470 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:54:861 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:54:876 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:54:885 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:54:908 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/13/click 200 592 ms - 14
+2019-11-30 06:29:54:917 [HTTP] 
+2019-11-30 06:29:54:955 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:54:960 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/tv_add"}
+2019-11-30 06:29:54:966 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/tv_add","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:54:970 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:54:977 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:54:999 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_add","context":"","multiple":false}}
+2019-11-30 06:29:55:032 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_add","context":"","multiple":false}}
+2019-11-30 06:29:55:046 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:55:064 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:55:093 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_add' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:55:110 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_add]
+2019-11-30 06:29:55:343 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+2019-11-30 06:29:55:433 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:55:536 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"14","ELEMENT":"14"}
+2019-11-30 06:29:55:587 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 618 ms - 69
+2019-11-30 06:29:55:605 [HTTP] 
+2019-11-30 06:29:55:639 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/14/click
+2019-11-30 06:29:55:675 [HTTP] {"id":"14"}
+2019-11-30 06:29:55:699 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["14","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:55:714 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"14"}}
+2019-11-30 06:29:55:765 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"14"}}
+2019-11-30 06:29:55:771 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:55:817 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:56:141 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:56:170 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:56:183 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:56:218 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/14/click 200 577 ms - 14
+2019-11-30 06:29:56:233 [HTTP] 
+2019-11-30 06:29:56:266 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:56:327 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[2]/android.widget.LinearLayout"}
+2019-11-30 06:29:56:381 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[2]/android.widget.LinearLayout","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:56:414 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:56:439 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:56:486 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[2]/android.widget.LinearLayout","context":"","multiple":false}}
+2019-11-30 06:29:56:580 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[2]/android.widget.LinearLayout","context":"","multiple":false}}
+2019-11-30 06:29:56:607 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:56:656 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:56:702 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.support.v7.widget.RecyclerView[2]/android.widget.LinearLayout[2]/android.widget.LinearLayout' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:29:57:305 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.LinearLayout, INSTANCE=20]
+2019-11-30 06:29:57:737 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"15"}}
+2019-11-30 06:29:57:746 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:57:781 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"15","ELEMENT":"15"}
+2019-11-30 06:29:57:845 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1546 ms - 69
+2019-11-30 06:29:57:861 [HTTP] 
+2019-11-30 06:29:57:893 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/15/click
+2019-11-30 06:29:58:001 [HTTP] {"id":"15"}
+2019-11-30 06:29:58:054 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["15","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:58:093 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"15"}}
+2019-11-30 06:29:58:128 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"15"}}
+2019-11-30 06:29:58:133 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:58:138 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:29:58:831 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:29:58:847 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:58:870 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:29:58:886 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/15/click 200 1008 ms - 14
+2019-11-30 06:29:58:904 [HTTP] 
+2019-11-30 06:29:58:927 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:29:58:966 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/img_plus"}
+2019-11-30 06:29:58:996 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/img_plus","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:59:099 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:29:59:130 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:29:59:166 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/img_plus","context":"","multiple":false}}
+2019-11-30 06:29:59:200 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/img_plus","context":"","multiple":false}}
+2019-11-30 06:29:59:212 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:59:220 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:29:59:257 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/img_plus' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:29:59:278 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/img_plus]
+2019-11-30 06:29:59:528 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"16"}}
+2019-11-30 06:29:59:555 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:29:59:567 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"16","ELEMENT":"16"}
+2019-11-30 06:29:59:580 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 663 ms - 69
+2019-11-30 06:29:59:589 [HTTP] 
+2019-11-30 06:29:59:616 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/16/click
+2019-11-30 06:29:59:633 [HTTP] {"id":"16"}
+2019-11-30 06:29:59:683 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["16","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:29:59:704 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"16"}}
+2019-11-30 06:29:59:745 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"16"}}
+2019-11-30 06:29:59:771 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:29:59:796 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:30:00:069 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:30:00:094 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:00:105 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:30:00:145 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/16/click 200 517 ms - 14
+2019-11-30 06:30:00:168 [HTTP] 
+2019-11-30 06:30:00:195 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:30:00:223 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/tv_add"}
+2019-11-30 06:30:00:235 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/tv_add","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:00:271 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:30:00:288 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:30:00:311 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_add","context":"","multiple":false}}
+2019-11-30 06:30:00:336 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_add","context":"","multiple":false}}
+2019-11-30 06:30:00:348 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:00:356 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:30:00:374 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_add' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:00:391 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_add]
+2019-11-30 06:30:00:602 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"17"}}
+2019-11-30 06:30:00:631 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:00:789 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"17","ELEMENT":"17"}
+2019-11-30 06:30:00:840 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 620 ms - 69
+2019-11-30 06:30:00:930 [HTTP] 
+2019-11-30 06:30:01:042 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/17/click
+2019-11-30 06:30:01:058 [HTTP] {"id":"17"}
+2019-11-30 06:30:01:108 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["17","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:01:152 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"17"}}
+2019-11-30 06:30:01:213 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"17"}}
+2019-11-30 06:30:01:230 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:01:272 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:30:01:476 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:30:01:486 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:01:526 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:30:01:607 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/17/click 200 595 ms - 14
+2019-11-30 06:30:01:621 [HTTP] 
+2019-11-30 06:30:01:693 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:30:01:728 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/tv_choose_confirm"}
+2019-11-30 06:30:01:756 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/tv_choose_confirm","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:01:783 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:30:01:801 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:30:01:834 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_choose_confirm","context":"","multiple":false}}
+2019-11-30 06:30:01:869 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_choose_confirm","context":"","multiple":false}}
+2019-11-30 06:30:01:884 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:01:922 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:30:01:949 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_choose_confirm' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:01:998 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_choose_confirm]
+2019-11-30 06:30:03:134 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"18"}}
+2019-11-30 06:30:03:204 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:03:285 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"18","ELEMENT":"18"}
+2019-11-30 06:30:03:321 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1663 ms - 69
+2019-11-30 06:30:03:440 [HTTP] 
+2019-11-30 06:30:03:702 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/18/click
+2019-11-30 06:30:03:807 [HTTP] {"id":"18"}
+2019-11-30 06:30:03:836 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["18","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:04:102 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"18"}}
+2019-11-30 06:30:04:201 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"18"}}
+2019-11-30 06:30:04:227 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:04:314 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:30:04:501 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:30:04:517 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:04:587 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:30:04:600 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/18/click 200 1147 ms - 14
+2019-11-30 06:30:04:615 [HTTP] 
+2019-11-30 06:30:04:680 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:30:04:685 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/et_bill_remark"}
+2019-11-30 06:30:04:708 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/et_bill_remark","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:04:716 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:30:04:735 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:30:04:793 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/et_bill_remark","context":"","multiple":false}}
+2019-11-30 06:30:04:820 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/et_bill_remark","context":"","multiple":false}}
+2019-11-30 06:30:04:828 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:04:833 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:30:04:849 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/et_bill_remark' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:04:871 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/et_bill_remark]
+2019-11-30 06:30:05:267 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"19"}}
+2019-11-30 06:30:05:288 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:05:342 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"19","ELEMENT":"19"}
+2019-11-30 06:30:05:393 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 725 ms - 69
+2019-11-30 06:30:05:437 [HTTP] 
+2019-11-30 06:30:05:476 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/19/value
+2019-11-30 06:30:05:649 [HTTP] {"text":"this is a Appium test.","value":["t","h","i","s"," ","i","s"," ","a"," ","A","p","p","i","u","m"," ","t","e","s","t","."],"id":"19"}
+2019-11-30 06:30:05:657 [W3C (64703bb7)] Calling AppiumDriver.setValue() with args: [["t","h","i","s"," ","i","s"," ","a"," ","A","p","p","i","u","m"," ","t","e","s","t","."],"19","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:05:686 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"19","text":"this is a Appium test.","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:30:05:728 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"19","text":"this is a Appium test.","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:30:05:744 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:05:831 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:30:05:843 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 19
+2019-11-30 06:30:05:848 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:30:08:242 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2019-11-30 06:30:08:379 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2019-11-30 06:30:08:429 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: this is a Appium test.
+2019-11-30 06:30:10:701 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:30:10:718 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:10:746 [W3C (64703bb7)] Responding to client with driver.setValue() result: true
+2019-11-30 06:30:10:752 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/19/value 200 5307 ms - 14
+2019-11-30 06:30:10:755 [HTTP] 
+2019-11-30 06:30:10:767 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:30:10:776 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/tv_commit"}
+2019-11-30 06:30:10:781 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/tv_commit","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:10:800 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:30:10:809 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:30:10:815 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_commit","context":"","multiple":false}}
+2019-11-30 06:30:10:829 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_commit","context":"","multiple":false}}
+2019-11-30 06:30:10:834 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:10:842 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:30:10:853 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_commit' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:10:867 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_commit]
+2019-11-30 06:30:11:232 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"20"}}
+2019-11-30 06:30:11:408 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:11:454 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"20","ELEMENT":"20"}
+2019-11-30 06:30:11:679 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 695 ms - 69
+2019-11-30 06:30:11:690 [HTTP] 
+2019-11-30 06:30:11:860 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/20/click
+2019-11-30 06:30:11:899 [HTTP] {"id":"20"}
+2019-11-30 06:30:12:170 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["20","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:12:229 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"20"}}
+2019-11-30 06:30:12:284 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"20"}}
+2019-11-30 06:30:12:315 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:12:425 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:30:12:612 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:30:12:640 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:12:649 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:30:12:682 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/20/click 200 959 ms - 14
+2019-11-30 06:30:12:704 [HTTP] 
+2019-11-30 06:30:12:727 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element
+2019-11-30 06:30:12:762 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/tv_back"}
+2019-11-30 06:30:12:802 [W3C (64703bb7)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/tv_back","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:12:854 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:30:12:866 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:30:12:917 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_back","context":"","multiple":false}}
+2019-11-30 06:30:12:945 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_back","context":"","multiple":false}}
+2019-11-30 06:30:12:967 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:12:975 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:30:13:015 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_back' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:13:044 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_back]
+2019-11-30 06:30:13:474 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2019-11-30 06:30:13:506 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_back' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:13:513 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_back]
+2019-11-30 06:30:13:532 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:13:577 [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+2019-11-30 06:30:13:600 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2019-11-30 06:30:13:624 [BaseDriver] Waited for 733 ms so far
+2019-11-30 06:30:14:135 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_back","context":"","multiple":false}}
+2019-11-30 06:30:14:197 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/tv_back","context":"","multiple":false}}
+2019-11-30 06:30:14:214 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:14:219 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:30:14:244 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/tv_back' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:30:14:248 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/tv_back]
+2019-11-30 06:30:14:448 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"21"}}
+2019-11-30 06:30:14:455 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:14:480 [W3C (64703bb7)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"21","ELEMENT":"21"}
+2019-11-30 06:30:14:505 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element 200 1775 ms - 69
+2019-11-30 06:30:14:517 [HTTP] 
+2019-11-30 06:30:14:532 [HTTP] --> POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/21/click
+2019-11-30 06:30:14:563 [HTTP] {"id":"21"}
+2019-11-30 06:30:14:568 [W3C (64703bb7)] Calling AppiumDriver.click() with args: ["21","64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:14:589 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"21"}}
+2019-11-30 06:30:14:620 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"21"}}
+2019-11-30 06:30:14:654 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:30:14:668 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:30:17:923 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:30:18:044 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:30:18:063 [W3C (64703bb7)] Responding to client with driver.click() result: true
+2019-11-30 06:30:18:127 [HTTP] <-- POST /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/element/21/click 200 3545 ms - 14
+2019-11-30 06:30:18:144 [HTTP] 
+2019-11-30 06:30:20:138 [HTTP] --> DELETE /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/window
+2019-11-30 06:30:20:206 [HTTP] {}
+2019-11-30 06:30:20:244 [W3C (64703bb7)] Calling AppiumDriver.closeWindow() with args: ["64703bb7-f9b1-409c-a0d0-4fb9df85ff97"]
+2019-11-30 06:30:20:374 [W3C (64703bb7)] Encountered internal error running command: NotYetImplementedError: Method has not yet been implemented
+2019-11-30 06:30:20:400 [W3C (64703bb7)]     at AndroidDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@4.5.1@appium-base-driver\lib\basedriver\driver.js:323:13)
+2019-11-30 06:30:20:440 [W3C (64703bb7)]     at AppiumDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\lib\appium.js:496:36)
+2019-11-30 06:30:20:506 [W3C (64703bb7)]     at runMicrotasks (<anonymous>)
+2019-11-30 06:30:20:512 [W3C (64703bb7)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2019-11-30 06:30:20:644 [W3C (64703bb7)]     at asyncHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@4.5.1@appium-base-driver\lib\protocol\protocol.js:306:21)
+2019-11-30 06:30:20:682 [HTTP] <-- DELETE /wd/hub/session/64703bb7-f9b1-409c-a0d0-4fb9df85ff97/window 405 578 ms - 791
+2019-11-30 06:30:20:755 [HTTP] 
+2019-11-30 06:30:22:762 [HTTP] --> POST /wd/hub/session
+2019-11-30 06:30:23:098 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"9","appium:deviceName":"SM-G9350","appium:appPackage":"com.kingdee.jdy","appium:appActivity":"com.kdweibo.android.ui.activity.StartActivity","appium:udid":"127.0.0.1:21503","appium:app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","appium:noReset":"false","appium:unicodeKeyboard":"true","appium:resetKeyboard":"true","appium:noSign":"true","appium:recreateChromeDriverSessions":"true","appium:automationName":"UiAutomator1"}]},"desiredCapabilities":{"platformName":"Android","platformVersion":"9","deviceName":"SM-G9350","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":"false","unicodeKeyboard":"true","resetKeyboard":"true","noSign":"true","recreateChromeDriverSessions":"true","automationName":"UiAutomator1"}}
+2019-11-30 06:30:23:409 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"9","deviceName":"SM-G9350","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":"false","unicodeKeyboard":"true","resetKeyboard":"true","noSign":"true","recreateChromeDriverSessions":"true","automationName":"UiAutomator1"},null,{"firstMatch":[{"platformName":"Android","appium:platformVersion":"9","appium:deviceName":"SM-G9350","appium:appPackage":"com.kingdee.jdy","appium:appActivity":"com.kdweibo.android.ui.activity.StartActivity","appium:udid":"127.0.0.1:21503","appium:app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","appium:noReset":"false","appium:unicodeKeyboard":"true","appium:resetKeyboard":"true","appium:noSign":"true","appium:recreateChromeDriverSessions":"true","appium:automationName":"UiAutomator1"}]}]
+2019-11-30 06:30:23:470 [BaseDriver] Event 'newSessionRequested' logged at 1575095423409 (14:30:23 GMT+0800 (GMT+08:00))
+2019-11-30 06:30:23:550 [Appium] Appium v1.15.1 creating new AndroidDriver (v4.20.1) session
+2019-11-30 06:30:23:779 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2019-11-30 06:30:23:808 [BaseDriver] Creating session with W3C capabilities: {
+2019-11-30 06:30:23:913 [BaseDriver]   "alwaysMatch": {
+2019-11-30 06:30:24:049 [BaseDriver]     "platformName": "Android",
+2019-11-30 06:30:24:083 [BaseDriver]     "appium:platformVersion": "9",
+2019-11-30 06:30:24:305 [BaseDriver]     "appium:deviceName": "SM-G9350",
+2019-11-30 06:30:24:573 [BaseDriver]     "appium:appPackage": "com.kingdee.jdy",
+2019-11-30 06:30:24:740 [BaseDriver]     "appium:appActivity": "com.kdweibo.android.ui.activity.StartActivity",
+2019-11-30 06:30:24:776 [BaseDriver]     "appium:udid": "127.0.0.1:21503",
+2019-11-30 06:30:24:783 [BaseDriver]     "appium:app": "C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk",
+2019-11-30 06:30:25:019 [BaseDriver]     "appium:noReset": "false",
+2019-11-30 06:30:25:044 [BaseDriver]     "appium:unicodeKeyboard": "true",
+2019-11-30 06:30:25:275 [BaseDriver]     "appium:resetKeyboard": "true",
+2019-11-30 06:30:25:395 [BaseDriver]     "appium:noSign": "true",
+2019-11-30 06:30:25:554 [BaseDriver]     "appium:recreateChromeDriverSessions": "true",
+2019-11-30 06:30:25:583 [BaseDriver]     "appium:automationName": "UiAutomator1"
+2019-11-30 06:30:25:763 [BaseDriver]   },
+2019-11-30 06:30:25:779 [BaseDriver]   "firstMatch": [
+2019-11-30 06:30:25:959 [BaseDriver]     {}
+2019-11-30 06:30:25:990 [BaseDriver]   ]
+2019-11-30 06:30:26:361 [BaseDriver] }
+2019-11-30 06:30:26:378 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:30:26:530 [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:30:26:755 [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:30:26:765 [BaseDriver] Capability 'noSign' changed from string to boolean. This may cause unexpected behavior
+2019-11-30 06:30:26:799 [BaseDriver] Session created with session id: 13b1b7b2-4c88-4e62-ac70-4710e640952c
+2019-11-30 06:30:26:819 [ADB] Using 'adb.exe' from 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe'
+2019-11-30 06:30:26:832 [AndroidDriver] Retrieving device list
+2019-11-30 06:30:26:914 [ADB] Trying to find a connected android device
+2019-11-30 06:30:26:932 [ADB] Getting connected devices...
+2019-11-30 06:30:27:609 [ADB] Connected devices: [{"udid":"127.0.0.1:21503","state":"device"}]
+2019-11-30 06:30:27:642 [AndroidDriver] Using device: 127.0.0.1:21503
+2019-11-30 06:30:27:655 [ADB] Using 'adb.exe' from 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe'
+2019-11-30 06:30:27:733 [ADB] Setting device id to 127.0.0.1:21503
+2019-11-30 06:30:27:784 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.sdk'
+2019-11-30 06:30:28:342 [ADB] Current device property 'ro.build.version.sdk': 22
+2019-11-30 06:30:28:380 [ADB] Device API level: 22
+2019-11-30 06:30:28:385 [BaseDriver] Using local app 'C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk'
+2019-11-30 06:30:28:396 [AndroidDriver] Checking whether app is actually present
+2019-11-30 06:30:28:409 [AndroidDriver] Starting Android session
+2019-11-30 06:30:28:485 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 wait-for-device'
+2019-11-30 06:30:29:191 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell echo ping'
+2019-11-30 06:30:29:888 [AndroidDriver] Pushing settings apk to device...
+2019-11-30 06:30:29:909 [ADB] Getting install status for io.appium.settings
+2019-11-30 06:30:29:927 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-11-30 06:30:30:707 [ADB] 'io.appium.settings' is installed
+2019-11-30 06:30:30:728 [ADB] Getting package info for 'io.appium.settings'
+2019-11-30 06:30:30:736 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-11-30 06:30:31:418 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+2019-11-30 06:30:31:436 [ADB] There is no need to install/upgrade 'C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.15.0@io.appium.settings\apks\settings_apk-debug.apk'
+2019-11-30 06:30:31:450 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-11-30 06:30:31:484 [ADB] Using ps-based PID detection
+2019-11-30 06:30:31:511 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ps'
+2019-11-30 06:30:33:119 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-11-30 06:30:33:181 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings put secure mock_location 1'
+2019-11-30 06:30:35:990 [Logcat] Starting logcat capture
+2019-11-30 06:30:37:620 [AndroidDriver] Enabling Unicode keyboard support
+2019-11-30 06:30:37:643 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings get secure default_input_method'
+2019-11-30 06:30:39:582 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2019-11-30 06:30:39:591 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2019-11-30 06:30:39:634 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ime enable io.appium.settings/.UnicodeIME'
+2019-11-30 06:30:41:061 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ime set io.appium.settings/.UnicodeIME'
+2019-11-30 06:30:42:296 [ADB] Getting device platform version
+2019-11-30 06:30:42:328 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.release'
+2019-11-30 06:30:43:041 [ADB] Current device property 'ro.build.version.release': 5.1.1
+2019-11-30 06:30:43:066 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell wm size'
+2019-11-30 06:30:44:004 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.model'
+2019-11-30 06:30:44:735 [ADB] Current device property 'ro.product.model': SM-G9350
+2019-11-30 06:30:44:814 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.product.manufacturer'
+2019-11-30 06:30:45:392 [ADB] Current device property 'ro.product.manufacturer': samsung
+2019-11-30 06:30:45:406 [ADB] Getting install status for com.kingdee.jdy
+2019-11-30 06:30:45:454 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.kingdee.jdy'
+2019-11-30 06:30:46:218 [ADB] 'com.kingdee.jdy' is installed
+2019-11-30 06:30:46:232 [ADB] Getting package info for 'com.kingdee.jdy'
+2019-11-30 06:30:46:266 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.kingdee.jdy'
+2019-11-30 06:30:46:972 [ADB] The version name of the installed 'com.kingdee.jdy' is greater or equal to the application version name ('6.5.2' >= '6.5.2')
+2019-11-30 06:30:46:982 [ADB] There is no need to install/upgrade 'C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk'
+2019-11-30 06:30:47:162 [AndroidDriver] Performing fast reset on 'com.kingdee.jdy'
+2019-11-30 06:30:47:181 [ADB] Getting install status for com.kingdee.jdy
+2019-11-30 06:30:47:296 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package com.kingdee.jdy'
+2019-11-30 06:30:47:974 [ADB] 'com.kingdee.jdy' is installed
+2019-11-30 06:30:48:015 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop com.kingdee.jdy'
+2019-11-30 06:30:49:653 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm clear com.kingdee.jdy'
+2019-11-30 06:30:50:788 [AndroidDriver] Performed fast reset on the installed 'com.kingdee.jdy' application (stop and clear)
+2019-11-30 06:30:50:806 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell rm -rf /data/local/tmp/strings.json'
+2019-11-30 06:30:51:353 [AndroidDriver] Extracting strings from apk
+2019-11-30 06:30:51:362 [AndroidDriver] C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk
+2019-11-30 06:30:51:375 [AndroidDriver] null
+2019-11-30 06:30:51:387 [AndroidDriver] C:\Users\ADMINI~1\AppData\Local\Temp\com.kingdee.jdy
+2019-11-30 06:30:51:418 [ADB] Extracting strings from for language: default
+2019-11-30 06:30:51:428 [ADB] Using 'aapt.exe' from 'D:\adt-bundle-windows-x86_64-20140702\sdk\build-tools\android-4.4W\aapt.exe'
+2019-11-30 06:30:52:268 [ADB] Successfully extracted 2044 strings from 'C:\Users\Administrator\Desktop\jdy_release_android_360_v6.5.2.apk' resources for '(default)' configuration
+2019-11-30 06:30:52:287 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell mkdir -p /data/local'
+2019-11-30 06:30:52:720 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\com.kingdee.jdy\\strings.json /data/local/tmp'
+2019-11-30 06:30:53:555 [AndroidBootstrap] Watching for bootstrap disconnect
+2019-11-30 06:30:53:565 [ADB] Forwarding system: 4701 to device: 4724
+2019-11-30 06:30:53:594 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 forward tcp\:4701 tcp\:4724'
+2019-11-30 06:30:54:348 [UiAutomator] Starting UiAutomator
+2019-11-30 06:30:54:375 [UiAutomator] Moving to state 'starting'
+2019-11-30 06:30:54:438 [UiAutomator] Parsing uiautomator jar
+2019-11-30 06:30:54:480 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2019-11-30 06:30:54:502 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell mkdir -p /data/local'
+2019-11-30 06:30:55:677 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 push C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-driver\@4.20.1\@appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2019-11-30 06:30:56:545 [ADB] Attempting to kill all uiautomator processes
+2019-11-30 06:30:56:590 [ADB] Getting IDs of all 'uiautomator' processes
+2019-11-30 06:30:56:624 [ADB] Using ps-based PID detection
+2019-11-30 06:30:56:644 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ps'
+2019-11-30 06:30:57:651 [ADB] Attempting to kill process 28752
+2019-11-30 06:30:57:696 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell kill -0 28752'
+2019-11-30 06:30:58:784 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell kill 28752'
+2019-11-30 06:31:00:424 [ADB] Cannot kill process 28752 in 1000 ms. Trying to force kill...
+2019-11-30 06:31:00:450 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell kill -9 28752'
+2019-11-30 06:31:00:534 [UiAutomator] UiAutomator exited unexpectedly with code 0, signal null
+2019-11-30 06:31:00:545 [UiAutomator] Moving to state 'stopped'
+2019-11-30 06:31:00:569 [AndroidDriver] Shutting down Android driver
+2019-11-30 06:31:00:578 [Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+2019-11-30 06:31:00:590 [Appium] Removing session 64703bb7-f9b1-409c-a0d0-4fb9df85ff97 from our master session list
+2019-11-30 06:31:00:597 [AndroidDriver] Resetting IME to io.appium.settings/.UnicodeIME
+2019-11-30 06:31:00:619 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell ime set io.appium.settings/.UnicodeIME'
+2019-11-30 06:31:01:235 [UiAutomator] Starting UIAutomator
+2019-11-30 06:31:01:251 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21503","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.kingdee.jdy","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2019-11-30 06:31:01:828 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop com.kingdee.jdy'
+2019-11-30 06:31:01:993 [UiAutomator] Moving to state 'online'
+2019-11-30 06:31:02:027 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2019-11-30 06:31:02:033 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2019-11-30 06:31:02:068 [AndroidBootstrap] Android bootstrap socket is now connected
+2019-11-30 06:31:02:084 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys window'
+2019-11-30 06:31:02:161 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2019-11-30 06:31:02:901 [ADB] Pressing the HOME button
+2019-11-30 06:31:02:935 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell input keyevent 3'
+2019-11-30 06:31:03:248 [AndroidDriver] Screen already unlocked, doing nothing
+2019-11-30 06:31:03:293 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n com.kingdee.jdy/com.kdweibo.android.ui.activity.StartActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-11-30 06:31:04:562 [AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+2019-11-30 06:31:04:580 [Logcat] Stopping logcat capture
+2019-11-30 06:31:04:682 [ADB] Running 'D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am force-stop io.appium.unlock'
+2019-11-30 06:31:06:579 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2019-11-30 06:31:07:506 [Appium] New AndroidDriver session created successfully, session 13b1b7b2-4c88-4e62-ac70-4710e640952c added to master session list
+2019-11-30 06:31:07:516 [BaseDriver] Event 'newSessionStarted' logged at 1575095467507 (14:31:07 GMT+0800 (GMT+08:00))
+2019-11-30 06:31:07:534 [W3C (13b1b7b2)] Cached the protocol value 'W3C' for the new session 13b1b7b2-4c88-4e62-ac70-4710e640952c
+2019-11-30 06:31:07:628 [W3C (13b1b7b2)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"9","deviceName":"SM-G9350","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"noSign":true,"recreateChromeDriverSessions":"true","automationName":"UiAutomator1"},"platformName":"Android","platformVersion":"5.1.1","deviceName":"127.0.0.1:21503","appPackage":"com.kingdee.jdy","appActivity":"com.kdweibo.android.ui.activity.StartActivity","udid":"127.0.0.1:21503","app":"C:\\Users\\Administrator\\Desktop\\jdy_release_android_360_v6.5.2.apk","noReset":false,"unicodeKeyboard":true,"resetKeyboard":true,"noSign":true,"recreateChromeDriverSessions":"tru...
+2019-11-30 06:31:07:689 [HTTP] <-- POST /wd/hub/session 200 44924 ms - 1235
+2019-11-30 06:31:07:706 [HTTP] 
+2019-11-30 06:31:07:788 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/timeouts
+2019-11-30 06:31:07:830 [HTTP] {"implicit":5000}
+2019-11-30 06:31:07:854 [W3C (13b1b7b2)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:07:863 [BaseDriver] W3C timeout argument: {"implicit":5000}}
+2019-11-30 06:31:07:882 [BaseDriver] Set implicit wait to 5000ms
+2019-11-30 06:31:07:892 [W3C (13b1b7b2)] Responding to client with driver.timeouts() result: null
+2019-11-30 06:31:07:935 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/timeouts 200 176 ms - 14
+2019-11-30 06:31:07:977 [HTTP] 
+2019-11-30 06:31:08:043 [HTTP] --> GET /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/window/rect
+2019-11-30 06:31:08:094 [HTTP] {}
+2019-11-30 06:31:08:151 [W3C (13b1b7b2)] Calling AppiumDriver.getWindowRect() with args: ["13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:08:160 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-11-30 06:31:08:219 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2019-11-30 06:31:08:227 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:08:240 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:08:254 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2019-11-30 06:31:08:269 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+2019-11-30 06:31:08:291 [W3C (13b1b7b2)] Responding to client with driver.getWindowRect() result: {"width":720,"height":1280,"x":0,"y":0}
+2019-11-30 06:31:08:299 [HTTP] <-- GET /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/window/rect 200 311 ms - 49
+2019-11-30 06:31:08:302 [HTTP] 
+2019-11-30 06:31:08:322 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/touch/perform
+2019-11-30 06:31:08:340 [HTTP] {"actions":[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}]}
+2019-11-30 06:31:08:352 [W3C (13b1b7b2)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}],"13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:08:374 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:31:08:400 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:31:08:412 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:08:433 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-11-30 06:31:08:468 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:31:08:487 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:31:08:551 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=648.0, y=640.0] to [x=72.0, y=640.0] with steps: 22
+2019-11-30 06:31:08:855 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:08:879 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:08:910 [W3C (13b1b7b2)] Responding to client with driver.performTouch() result: true
+2019-11-30 06:31:08:935 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/touch/perform 200 606 ms - 14
+2019-11-30 06:31:08:949 [HTTP] 
+2019-11-30 06:31:08:982 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/touch/perform
+2019-11-30 06:31:09:010 [HTTP] {"actions":[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}]}
+2019-11-30 06:31:09:085 [W3C (13b1b7b2)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":648,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":72,"y":640}},{"action":"release","options":{}}],"13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:09:114 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:31:09:184 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":648,"startY":640,"endX":72,"endY":640,"steps":22}}
+2019-11-30 06:31:09:223 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:09:237 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-11-30 06:31:09:357 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:31:09:365 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:31:09:393 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=648.0, y=640.0] to [x=72.0, y=640.0] with steps: 22
+2019-11-30 06:31:09:683 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:09:701 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:09:714 [W3C (13b1b7b2)] Responding to client with driver.performTouch() result: true
+2019-11-30 06:31:09:750 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/touch/perform 200 762 ms - 14
+2019-11-30 06:31:09:762 [HTTP] 
+2019-11-30 06:31:09:804 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/touch/perform
+2019-11-30 06:31:09:846 [HTTP] {"actions":[{"action":"press","options":{"x":72,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":648,"y":640}},{"action":"release","options":{}}]}
+2019-11-30 06:31:09:878 [W3C (13b1b7b2)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":72,"y":640}},{"action":"wait","options":{"ms":0}},{"action":"moveTo","options":{"x":648,"y":640}},{"action":"release","options":{}}],"13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:09:906 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":72,"startY":640,"endX":648,"endY":640,"steps":22}}
+2019-11-30 06:31:09:952 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":72,"startY":640,"endX":648,"endY":640,"steps":22}}
+2019-11-30 06:31:09:974 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:10:022 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2019-11-30 06:31:10:045 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:31:10:076 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][720,1280]
+2019-11-30 06:31:10:094 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=72.0, y=640.0] to [x=648.0, y=640.0] with steps: 22
+2019-11-30 06:31:10:422 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:10:466 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:10:478 [W3C (13b1b7b2)] Responding to client with driver.performTouch() result: true
+2019-11-30 06:31:10:511 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/touch/perform 200 715 ms - 14
+2019-11-30 06:31:10:517 [HTTP] 
+2019-11-30 06:31:10:552 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:10:572 [HTTP] {"using":"id","value":"com.kingdee.jdy:id/login"}
+2019-11-30 06:31:10:633 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["id","com.kingdee.jdy:id/login","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:10:648 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:10:660 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:10:704 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/login","context":"","multiple":false}}
+2019-11-30 06:31:10:747 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.kingdee.jdy:id/login","context":"","multiple":false}}
+2019-11-30 06:31:10:754 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:10:768 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:10:798 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'com.kingdee.jdy:id/login' using 'ID' with the contextId: '' multiple: false
+2019-11-30 06:31:10:810 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.kingdee.jdy:id/login]
+2019-11-30 06:31:11:715 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:11:893 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2019-11-30 06:31:12:142 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1","ELEMENT":"1"}
+2019-11-30 06:31:12:173 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 1624 ms - 67
+2019-11-30 06:31:12:252 [HTTP] 
+2019-11-30 06:31:12:282 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/1/click
+2019-11-30 06:31:12:301 [HTTP] {"id":"1"}
+2019-11-30 06:31:12:512 [W3C (13b1b7b2)] Calling AppiumDriver.click() with args: ["1","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:12:703 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-11-30 06:31:12:785 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2019-11-30 06:31:12:812 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:12:895 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:31:13:231 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:13:245 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:13:332 [W3C (13b1b7b2)] Responding to client with driver.click() result: true
+2019-11-30 06:31:13:395 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/1/click 200 1072 ms - 14
+2019-11-30 06:31:13:435 [HTTP] 
+2019-11-30 06:31:13:475 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:13:603 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText"}
+2019-11-30 06:31:13:658 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:13:691 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:13:707 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:13:809 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:13:874 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:13:898 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:13:931 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:13:959 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:13:982 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+2019-11-30 06:31:14:050 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2019-11-30 06:31:14:073 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:14:097 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2","ELEMENT":"2"}
+2019-11-30 06:31:14:126 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 658 ms - 67
+2019-11-30 06:31:14:150 [HTTP] 
+2019-11-30 06:31:14:211 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/2/value
+2019-11-30 06:31:14:217 [HTTP] {"text":"kingdeetestv","value":["k","i","n","g","d","e","e","t","e","s","t","v"],"id":"2"}
+2019-11-30 06:31:14:245 [W3C (13b1b7b2)] Calling AppiumDriver.setValue() with args: [["k","i","n","g","d","e","e","t","e","s","t","v"],"2","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:14:252 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"kingdeetestv","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:14:302 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"kingdeetestv","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:14:329 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:14:335 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:31:14:352 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+2019-11-30 06:31:14:358 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:31:16:713 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2019-11-30 06:31:16:879 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2019-11-30 06:31:16:921 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: kingdeetestv
+2019-11-30 06:31:19:158 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:19:192 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:19:198 [W3C (13b1b7b2)] Responding to client with driver.setValue() result: true
+2019-11-30 06:31:19:214 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/2/value 200 5047 ms - 14
+2019-11-30 06:31:19:220 [HTTP] 
+2019-11-30 06:31:19:231 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:19:263 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText"}
+2019-11-30 06:31:19:283 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:19:299 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:19:302 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:19:323 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:19:356 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:19:360 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:19:363 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:19:377 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:19:381 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=1]
+2019-11-30 06:31:19:688 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:19:773 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2019-11-30 06:31:19:887 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}
+2019-11-30 06:31:19:923 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 669 ms - 67
+2019-11-30 06:31:20:020 [HTTP] 
+2019-11-30 06:31:20:044 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/3/value
+2019-11-30 06:31:20:108 [HTTP] {"text":"a1234567","value":["a","1","2","3","4","5","6","7"],"id":"3"}
+2019-11-30 06:31:20:147 [W3C (13b1b7b2)] Calling AppiumDriver.setValue() with args: [["a","1","2","3","4","5","6","7"],"3","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:20:171 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"a1234567","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:20:206 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"a1234567","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:20:225 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:20:265 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:31:20:278 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 3
+2019-11-30 06:31:20:318 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:31:22:604 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: a1234567
+2019-11-30 06:31:25:002 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:25:018 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:25:026 [W3C (13b1b7b2)] Responding to client with driver.setValue() result: true
+2019-11-30 06:31:25:073 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/3/value 200 5003 ms - 14
+2019-11-30 06:31:25:081 [HTTP] 
+2019-11-30 06:31:25:099 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:25:121 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button"}
+2019-11-30 06:31:25:131 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:25:153 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:25:158 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:25:181 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","context":"","multiple":false}}
+2019-11-30 06:31:25:218 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","context":"","multiple":false}}
+2019-11-30 06:31:25:223 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:25:236 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:25:258 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:25:279 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2019-11-30 06:31:25:528 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2019-11-30 06:31:25:644 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:25:721 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4","ELEMENT":"4"}
+2019-11-30 06:31:25:748 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 638 ms - 67
+2019-11-30 06:31:25:774 [HTTP] 
+2019-11-30 06:31:25:807 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/4/click
+2019-11-30 06:31:25:829 [HTTP] {"id":"4"}
+2019-11-30 06:31:25:848 [W3C (13b1b7b2)] Calling AppiumDriver.click() with args: ["4","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:25:892 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2019-11-30 06:31:25:916 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2019-11-30 06:31:25:959 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:25:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:31:26:608 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:26:616 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:26:629 [W3C (13b1b7b2)] Responding to client with driver.click() result: true
+2019-11-30 06:31:26:650 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/4/click 200 854 ms - 14
+2019-11-30 06:31:26:662 [HTTP] 
+2019-11-30 06:31:28:710 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:28:735 [HTTP] {"using":"xpath","value":"//*[contains(@text,登录名或密码错误)]"}
+2019-11-30 06:31:28:760 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,登录名或密码错误)]","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:28:824 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:28:845 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:28:873 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,登录名或密码错误)]","context":"","multiple":false}}
+2019-11-30 06:31:28:923 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[contains(@text,登录名或密码错误)]","context":"","multiple":false}}
+2019-11-30 06:31:28:973 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:28:994 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:29:022 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[contains(@text,登录名或密码错误)]' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:29:034 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.FrameLayout, INSTANCE=0]
+2019-11-30 06:31:29:052 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:29:082 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2019-11-30 06:31:29:107 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5","ELEMENT":"5"}
+2019-11-30 06:31:29:115 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 475 ms - 67
+2019-11-30 06:31:29:121 [HTTP] 
+2019-11-30 06:31:31:129 [HTTP] --> DELETE /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/window
+2019-11-30 06:31:31:150 [HTTP] {}
+2019-11-30 06:31:31:157 [W3C (13b1b7b2)] Calling AppiumDriver.closeWindow() with args: ["13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:31:176 [W3C (13b1b7b2)] Encountered internal error running command: NotYetImplementedError: Method has not yet been implemented
+2019-11-30 06:31:31:206 [W3C (13b1b7b2)]     at AndroidDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@4.5.1@appium-base-driver\lib\basedriver\driver.js:323:13)
+2019-11-30 06:31:31:242 [W3C (13b1b7b2)]     at AppiumDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\lib\appium.js:496:36)
+2019-11-30 06:31:31:247 [W3C (13b1b7b2)]     at runMicrotasks (<anonymous>)
+2019-11-30 06:31:31:251 [W3C (13b1b7b2)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2019-11-30 06:31:31:257 [W3C (13b1b7b2)]     at asyncHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@4.5.1@appium-base-driver\lib\protocol\protocol.js:306:21)
+2019-11-30 06:31:31:277 [HTTP] <-- DELETE /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/window 405 147 ms - 791
+2019-11-30 06:31:31:286 [HTTP] 
+2019-11-30 06:31:31:314 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:31:362 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText"}
+2019-11-30 06:31:31:395 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:31:436 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:31:441 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:31:448 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:31:551 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:31:562 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:31:570 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:31:623 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.EditText' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:31:629 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:31:642 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+2019-11-30 06:31:31:649 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2019-11-30 06:31:31:671 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6","ELEMENT":"6"}
+2019-11-30 06:31:31:718 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 382 ms - 67
+2019-11-30 06:31:31:747 [HTTP] 
+2019-11-30 06:31:31:765 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/6/value
+2019-11-30 06:31:31:780 [HTTP] {"text":"kingdeetestv3","value":["k","i","n","g","d","e","e","t","e","s","t","v","3"],"id":"6"}
+2019-11-30 06:31:31:831 [W3C (13b1b7b2)] Calling AppiumDriver.setValue() with args: [["k","i","n","g","d","e","e","t","e","s","t","v","3"],"6","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:31:843 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"kingdeetestv3","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:31:875 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"6","text":"kingdeetestv3","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:31:878 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:31:900 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:31:31:923 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 6
+2019-11-30 06:31:31:931 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:31:35:491 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text remains after clearing, but it appears to be hint text.
+2019-11-30 06:31:35:689 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+2019-11-30 06:31:35:728 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: kingdeetestv3
+2019-11-30 06:31:37:992 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:38:027 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:38:049 [W3C (13b1b7b2)] Responding to client with driver.setValue() result: true
+2019-11-30 06:31:38:062 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/6/value 200 6297 ms - 14
+2019-11-30 06:31:38:076 [HTTP] 
+2019-11-30 06:31:38:082 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:38:094 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText"}
+2019-11-30 06:31:38:101 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:38:111 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:38:115 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:38:131 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:38:151 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText","context":"","multiple":false}}
+2019-11-30 06:31:38:167 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:38:192 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:38:205 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.EditText' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:38:210 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=1]
+2019-11-30 06:31:38:525 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2019-11-30 06:31:38:608 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:38:689 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7","ELEMENT":"7"}
+2019-11-30 06:31:38:860 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 613 ms - 67
+2019-11-30 06:31:38:868 [HTTP] 
+2019-11-30 06:31:38:879 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/7/value
+2019-11-30 06:31:38:942 [HTTP] {"text":"a1234567","value":["a","1","2","3","4","5","6","7"],"id":"7"}
+2019-11-30 06:31:38:947 [W3C (13b1b7b2)] Calling AppiumDriver.setValue() with args: [["a","1","2","3","4","5","6","7"],"7","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:38:957 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:setText","params":{"elementId":"7","text":"a1234567","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:39:037 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"7","text":"a1234567","replace":false,"unicodeKeyboard":true}}
+2019-11-30 06:31:39:100 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:39:115 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+2019-11-30 06:31:39:133 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 7
+2019-11-30 06:31:39:147 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+2019-11-30 06:31:42:396 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: a1234567
+2019-11-30 06:31:44:777 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:44:808 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:44:815 [W3C (13b1b7b2)] Responding to client with driver.setValue() result: true
+2019-11-30 06:31:44:828 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/7/value 200 5947 ms - 14
+2019-11-30 06:31:44:847 [HTTP] 
+2019-11-30 06:31:44:852 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element
+2019-11-30 06:31:44:867 [HTTP] {"using":"xpath","value":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button"}
+2019-11-30 06:31:44:883 [W3C (13b1b7b2)] Calling AppiumDriver.findElement() with args: ["xpath","/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:44:888 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-11-30 06:31:44:896 [BaseDriver] Waiting up to 5000 ms for condition
+2019-11-30 06:31:44:919 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","context":"","multiple":false}}
+2019-11-30 06:31:44:970 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button","context":"","multiple":false}}
+2019-11-30 06:31:44:978 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:44:987 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2019-11-30 06:31:45:003 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.Button' using 'XPATH' with the contextId: '' multiple: false
+2019-11-30 06:31:45:009 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2019-11-30 06:31:45:301 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2019-11-30 06:31:45:409 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:45:563 [W3C (13b1b7b2)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8","ELEMENT":"8"}
+2019-11-30 06:31:45:606 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element 200 715 ms - 67
+2019-11-30 06:31:45:673 [HTTP] 
+2019-11-30 06:31:45:682 [HTTP] --> POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/8/click
+2019-11-30 06:31:45:728 [HTTP] {"id":"8"}
+2019-11-30 06:31:45:744 [W3C (13b1b7b2)] Calling AppiumDriver.click() with args: ["8","13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:45:759 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2019-11-30 06:31:45:774 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2019-11-30 06:31:45:795 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2019-11-30 06:31:45:823 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2019-11-30 06:31:46:144 [AndroidBootstrap] Received command result from bootstrap
+2019-11-30 06:31:46:152 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2019-11-30 06:31:46:225 [W3C (13b1b7b2)] Responding to client with driver.click() result: true
+2019-11-30 06:31:46:258 [HTTP] <-- POST /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/element/8/click 200 551 ms - 14
+2019-11-30 06:31:46:302 [HTTP] 
+2019-11-30 06:31:48:297 [HTTP] --> DELETE /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/window
+2019-11-30 06:31:48:348 [HTTP] {}
+2019-11-30 06:31:48:398 [W3C (13b1b7b2)] Calling AppiumDriver.closeWindow() with args: ["13b1b7b2-4c88-4e62-ac70-4710e640952c"]
+2019-11-30 06:31:48:426 [W3C (13b1b7b2)] Encountered internal error running command: NotYetImplementedError: Method has not yet been implemented
+2019-11-30 06:31:48:439 [W3C (13b1b7b2)]     at AndroidDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@4.5.1@appium-base-driver\lib\basedriver\driver.js:323:13)
+2019-11-30 06:31:48:488 [W3C (13b1b7b2)]     at AppiumDriver.executeCommand (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\lib\appium.js:496:36)
+2019-11-30 06:31:48:498 [W3C (13b1b7b2)]     at runMicrotasks (<anonymous>)
+2019-11-30 06:31:48:517 [W3C (13b1b7b2)]     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2019-11-30 06:31:48:540 [W3C (13b1b7b2)]     at asyncHandler (C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\_appium-base-driver@4.5.1@appium-base-driver\lib\protocol\protocol.js:306:21)
+2019-11-30 06:31:48:628 [HTTP] <-- DELETE /wd/hub/session/13b1b7b2-4c88-4e62-ac70-4710e640952c/window 405 311 ms - 791
+2019-11-30 06:31:48:691 [HTTP] 
