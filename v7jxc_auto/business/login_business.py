@@ -3,8 +3,8 @@ from v7jxc_auto.handdle.oper_handle import LoginHandle
 
 
 class LoginBusiness(object):
-    def __init__(self):
-        self.login_handle = LoginHandle()
+    def __init__(self,i):
+        self.login_handle = LoginHandle(i)
 
     def login_button_one_click(self):
         self.login_handle.click_loginone_button()

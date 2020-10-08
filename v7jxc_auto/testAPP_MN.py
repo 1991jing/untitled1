@@ -6,9 +6,9 @@ from v7jxc_auto.util.dos_cmd import DosCmd
 from selenium.webdriver.common.action_chains import ActionChains
 from v7jxc_auto.util.findElement import FindElement
 from selenium.webdriver.common.keys import Keys
-# dos = DosCmd()
-#
-# dos.excute_cmd('start appium -p 4700 -bp 4701 -U 127.0.0.1:21503')
+dos = DosCmd()
+
+dos.excute_cmd('start appium -p 4723 -bp 4701 -U 127.0.0.1:21503')
 
 
 
@@ -27,7 +27,7 @@ def get_driver():
         "noSign": 'true',
         "recreateChromeDriverSessions": 'true',
         "automationName": "UiAutomator1",
-        "chromedriverExecutable":"C:/Users/kingdee/AppData/Local/Google/Chrome/Application/chromedriver.exe"
+        "chromedriverExecutable":"C:\\Users\\kingdee\\Desktop\\chromedriver.exe"
 
     }
     globals()
@@ -69,7 +69,7 @@ def swipe_on(direction):
 def switch_to_context():
     time.sleep(2)  # 因为无法监控，加上web页面加载比较慢所以等待时间比较长
     # 获取页面所有的上下文
-    cons = driver.contexts  #['NATIVE_APP', 'WEBVIEW_unknown', 'WEBVIEW_stetho_com.kingdee.jdy']
+    cons = driver.contexts  #['NATIVE_APP', 'WEBVIEW_com.kingdee.jdy', 'WEBVIEW_com.android.launcher2']
     print(cons)
     # 获取当前窗口的上下文
     print(driver.current_context)
@@ -180,13 +180,17 @@ print(driver.contexts)
 # get_by_local.get_element('remake',meg="caigou_element").send_keys("test an order...")
 
 
-print(driver.contexts)
+
 # ActionChains(driver).send_keys(u"test an order.").perform()
 # get_by_local.get_element('remake',meg="caigou_element").send_keys(u"test an order.")
 #driver.switch_to.active_element.send_keys(u"test an order.")
 
 get_by_local.get_element('Place_order',meg="caigou_element").click()
-driver.get_screenshot_as_file('./data/test.png')
+print(driver.contexts)
+# driver.get_screenshot_as_file('./data/test_mn.png')
+
+
+time.sleep(2)
 switch_to_context()
 get_by_local.get_element('purinbound_list',meg="caigou_element").click()
 switch_to_context()
@@ -206,5 +210,6 @@ switch_to_context()
 #审核单据
 get_by_local.get_element('audit_button',meg="caigou_element").click()
 
-driver.get_screenshot_as_file('./data/test2.png')
+# driver.get_screenshot_as_file('./data/test2_mn.png')
 
+print(driver.contexts)

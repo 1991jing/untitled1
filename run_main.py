@@ -1,7 +1,7 @@
 #coding=utf-8
 from HTMLTestRunner import *
 import unittest
-from v7jxc_auto.case import test_login_case
+from v7jxc_auto.case import test1_login_case
 from v7jxc_auto.util.server import Server
 import time,os,sys,time
 # testunit=unittest.defaultTestLoader.discover("../case",pattern="test*.py")
@@ -56,7 +56,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 from email.utils import formataddr
-from v7jxc_auto.case.test_login_case import *
+from v7jxc_auto.case.test1_login_case import *
 
 
 

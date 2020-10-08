@@ -1,5 +1,6 @@
 #coding=utf-8
 import os
+
 class DosCmd:
     def excute_cmd_result(self,command):
         result_list = []
@@ -12,9 +13,15 @@ class DosCmd:
         return result_list
 
     def excute_cmd(self,command):
+
+        # os.putenv("Path","D:\\tool\\sdk\\tools")
         os.system(command)
 
 if __name__ == '__main__':
     dos = DosCmd()
-    print (dos.excute_cmd('adb devices'))
-   # print(dos.excute_cmd('appium -p 4700 -bp 4701 -U 127.0.0.1:21503'))
+
+    # os.system('chcp 65001')
+
+    print(dos.excute_cmd("adb devices"))
+    dos.excute_cmd_result("adb devices")
+    #print(dos.excute_cmd('appium -p 4700 -bp 4701 -U 127.0.0.1:21503'))

@@ -22,3 +22,8 @@ print(text)
 
 goods="test_goods_"+str(random.randrange(0,10000))
 print(goods)
+
+
+
+
+list=[1]
