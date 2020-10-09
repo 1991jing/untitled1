@@ -2,6 +2,13 @@
 import sys
 # from HtmlTestRunner import *
 import HtmlTestRunner
+import os,sys
+
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+PathProject = os.path.split(rootPath)[0]
+sys.path.append(rootPath)
+sys.path.append(PathProject)
 
 from v7jxc_auto.business.caigou_business import CaigouBusiness
 from v7jxc_auto.util.server import Server
@@ -46,7 +53,6 @@ class CaseTest(ParameTestCase):
 
 
     def tearDown(self):
-        self.caigou_buiness.quit_driver()
         print ("this is teardown")
         # if sys.exc_info()[0]:
         #     self.caigou_buiness.caigou_handle.login_page.driver.save_screenshot("../data/test033.png")
@@ -54,12 +60,14 @@ class CaseTest(ParameTestCase):
 
     @classmethod
     def tearDownClass(cls):
+        Server=appium_init()
+        Server.kill_appium()
         print ("this is class teardown")
 
 def get_suite(i):
     print ("get_suite里面的",i)
     suite = unittest.TestSuite()
-    # suite.addTest(CaseTest("test_01",parame=i))
+    suite.addTest(CaseTest("test_01",parame=i))
     suite.addTest(CaseTest("test_02",parame=i))
     unittest.TextTestRunner().run(suite)
 
@@ -70,27 +78,25 @@ def get_suite(i):
     # runner.run(suite)#执行测试用例
 
 
-def appium_init():
-    server = Server()
-    server.main()
-    time.sleep(5)
+class appium_init():
+    def get_main(self):
+        server = Server()
+        server.main()
+        time.sleep(5)
+    def kill_appium(self):
+        server = Server()
+        server.kill_server()
+
+
 
 def get_count():
     write_user_file = WriteUserCommand()
     count = write_user_file.get_file_lines()
     return count
-#
-# def get_suite(i):
-#     print ("get_suite里面的",i)
-#     suite = unittest.TestSuite()
-#
-#     suite.addTest(CaseTest("test_01",parame=i))
-#
-#     unittest.TextTestRunner().run(suite)
 
 if __name__ == '__main__':
 
-    appium_init()
+    appium_init().get_main()
     threads = []
     for i in range(get_count()):
         print (i)

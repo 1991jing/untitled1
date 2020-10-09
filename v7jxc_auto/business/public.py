@@ -64,6 +64,7 @@ class Public_fu(object):
 
     def click_app_xsdd(self,app=None):
         e=self.driver.find_elements_by_id("com.kingdee.jdy:id/ic_app_name")
+        print("test")
         print(e)
         for i in e:
             print(i.text)

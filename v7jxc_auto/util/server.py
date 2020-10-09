@@ -45,7 +45,7 @@ class Server:
 		appium_port_list = self.create_port_list(4700)
 		bootstrap_port_list = self.create_port_list(4900)
 		device_list = self.device_list
-		command = "appium -p "+str(appium_port_list[i])+" -bp "+str(bootstrap_port_list[i])+" -U "+device_list[i]  #+" --no-reset --session-override --log D:/v7app_auto/untitled1/v7jxc_auto/data/test02.log"
+		command = "appium -p "+str(appium_port_list[i])+" -bp "+str(bootstrap_port_list[i])+" -U "+device_list[i]  +" --no-reset --session-override --log D:/v7app_auto/untitled1/v7jxc_auto/log/test_log.log"
 		#appium -p 4723 -bp 4726 -U 127.0.0.1:62001 --no-reset --session-override --log E:/Teacher/Imooc/AppiumPython/log/test01.log
 		command_list.append(command)
 		self.write_file.write_data(i,device_list[i],str(bootstrap_port_list[i]),str(appium_port_list[i]))
