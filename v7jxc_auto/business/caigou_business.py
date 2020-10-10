@@ -7,13 +7,14 @@ from  v7jxc_auto.business.public import Public_fu
 
 class CaigouBusiness(object):
     def __init__(self,i,):
+
         public = Public_fu(i)
 
         self.driver = public.driver
         #应用页面
         public.login_fn(usernamem="kingdeetest5854",password="a1234567",zhangtao_name="AUTO_TEST")
-        self.app_cg=public.click_app_cg
-        self.app_xsdd=public.click_app_xsdd
+        self.app=public.click_app
+        # self.app_xsdd=public.click_app(app="销售订单")
         self.fe=public.get_by_local
 
 
@@ -24,19 +25,18 @@ class CaigouBusiness(object):
     def switch_to_context(self,s):
         #s=0 原生；s=1 H5
         time.sleep(2)  # 因为无法监控，加上web页面加载比较慢所以等待时间比较长
-    # 获取页面所有的上下文
+        # 获取页面所有的上下文
         cons = self.driver.contexts  #['NATIVE_APP', 'WEBVIEW_com.kingdee.jdy', 'WEBVIEW_com.android.launcher2']
         print("xxxxxx:" ,cons)
         # 获取当前窗口的上下文
         print("ssssss:",self.driver.current_context)
-        #driver.switch_to.context("NATIVE_APP")
         self.driver.switch_to.context(cons[s])
         print("bbbbbbb:",self.driver.current_context)
 
     def get_purchase_order(self):
         time.sleep(5)
         #做采购单
-        self.app_cg(app="采购入库")
+        self.app(app="采购入库")
 
         self.switch_to_context(s=1)
 
@@ -109,7 +109,7 @@ class CaigouBusiness(object):
     def get_sale_order(self):
         time.sleep(5)
         print("1")
-        self.app_xsdd(app="销售订单")
+        self.app(app="销售订单")
         print("2")
         self.switch_to_context(s=1)
 

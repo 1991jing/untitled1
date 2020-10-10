@@ -79,6 +79,8 @@ class Server:
 
 
 if __name__ == '__main__':
+
 	server = Server()
-	print (server.main())
-	threads = []
+	server.kill_server()
+	#print (server.main())
+

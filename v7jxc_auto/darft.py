@@ -19,15 +19,33 @@
 # print(t)
 
 
-def test():
-    print('1')
+# def test():
+#     print('1')
+#
+# print(test())
+# print('2')
+#
+#
+# class num():
+#     y=2
+#
+# a=num.y
+# print(a)
 
-print(test())
-print('2')
+
+import sys
+import os
 
 
-class num():
-    y=2
+print (os.getcwd()) # 当前工作路径
+print (sys.argv) # 输入参数列表
+print (sys.argv[0]) # 第0个就是这个python文件本身的路径（全路径）
 
-a=num.y
-print(a)
+# Python文件名 相当于是上面保留的最后一部分 即*.py
+print (sys.argv[0][sys.argv[0].rfind(os.sep) + 1:] )
+
+
+from pathlib import Path
+name=Path(__file__).name.split(".py")[0]
+
+print(name)

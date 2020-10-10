@@ -1,12 +1,12 @@
 #coding=utf-8
-from HtmlTestRunner import *
+import HTMLTestRunner
 import unittest
 from v7jxc_auto.case import test1_login_case
 from v7jxc_auto.util.server import Server
 import time,os,sys,time
 
 
-filePath = u'C:\\Users\\Administrator\\PycharmProjects\\untitled1\\v7jxc_auto\\report\\Report.html'  # 确定生成报告的路径
+filePath = u'D:/v7app_auto/untitled1/v7jxc_auto/util/report/report.html'  # 确定生成报告的路径
 
 def appium_init():
     server = Server()
@@ -17,7 +17,7 @@ def get_suite():
 
     # try:
     fp = open(filePath, 'wb')
-    runner = HTMLTestRunner(stream=fp, title=u'自动化测试报告', description='APP功能用例测试结果')
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='自动化测试报告',description='APP功能用例测试结果')
     # 运行测试用例
     runner.run((testunit))
     fp.close()

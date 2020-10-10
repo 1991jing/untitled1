@@ -2,7 +2,7 @@
 import sys
 import multiprocessing
 from v7jxc_auto.util.server import Server
-from HtmlTestRunner import *
+from HTMLTestRunner import *
 from appium import webdriver
 from v7jxc_auto.util.write_user_command import WriteUserCommand
 
@@ -10,6 +10,7 @@ from v7jxc_auto.business.login_business import LoginBusiness
 import unittest
 import time
 from v7jxc_auto.util.base_driver import *
+from BeautifulReport import BeautifulReport
 
 
 class ParameTestCase(unittest.TestCase):
@@ -52,28 +53,33 @@ class CaseTest(ParameTestCase):
 
     @classmethod
     def tearDownClass(cls):
+        Server=appium_init()
+        Server.kill_appium()
         print ("this is class teardown")
 
-def appium_init():
-    server = Server()
-    server.main()
-    time.sleep(5)
+class appium_init():
+    def __init__(self):
+        self.server = Server()
+    def get_main(self):
+        self.server.main()
+        time.sleep(5)
+    def kill_appium(self):
+        self.server.kill_server()
 
 def get_suite(i):
     print ("get_suite里面的",i)
     suite = unittest.TestSuite()
     suite.addTest(CaseTest("test_02",parame=i))
     suite.addTest(CaseTest("test_01",parame=i))
-    unittest.TextTestRunner().run(suite)
+    # unittest.TextTestRunner().run(suite)
+    from pathlib import Path
+    name=Path(__file__).name.split(".py")[0]
     filePath = u'D:\\v7app_auto\\untitled1\\v7jxc_auto\\util\\report\\test.html'  # 确定生成报告的路径
-
-    html_file = "D:/v7app_auto/untitled1/v7jxc_auto/util/report/"+str(i)+".html"
+    html_file2 = "D:/v7app_auto/untitled1/v7jxc_auto/util/report/"+name+str(i)+"/"
     # fp = file(html_file,"wb")
-    fp = open(filePath,'wb')
-    # HTMLTestRunner.HTMLTestRunner(stream=fp).run(suite)
-    #HTMLTestRunner(stream=fp).run(suite)
+    result = BeautifulReport(suite)
+    result.report(filename='V7移动测试报告', description='测试v7APP报告', report_dir=html_file2)
     # 运行测试用例
-    fp.close()
     print("")
     print("----------All Done!-------")
 
@@ -83,7 +89,7 @@ def get_count():
     return count
 
 if __name__ == '__main__':
-    appium_init()
+    appium_init().get_main()
     threads = []
     for i in range(get_count()):
         print (i)

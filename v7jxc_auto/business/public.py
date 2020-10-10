@@ -45,31 +45,23 @@ class Public_fu(object):
         self.driver.switch_to.context(cons[1])
         print("bbbbbbb:",self.driver.current_context)
 
-    def click_app_cg(self,app=None):
+    def click_app(self,app=None):
         e=self.driver.find_elements_by_id("com.kingdee.jdy:id/ic_app_name")
         print(e)
         for i in e:
             print(i.text)
-        e[10].click()
-        # for i in e:
-        #     print(i.text)
-        #     try:
-        #         if i.text==app:
-        #             i.click()
-        #         else:
-        #             print("pass=====")
-        #     except:
-        #         print("pass=====!")
+            if i.text==app:
+                i.click()
+                break
         time.sleep(5)
 
-    def click_app_xsdd(self,app=None):
-        e=self.driver.find_elements_by_id("com.kingdee.jdy:id/ic_app_name")
-        print("test")
-        print(e)
-        for i in e:
-            print(i.text)
-        e[0].click()
-
+    # def click_app_xsdd(self,app=None):
+    #     e=self.driver.find_elements_by_id("com.kingdee.jdy:id/ic_app_name")
+    #     print("test")
+    #     print(e)
+    #     for i in e:
+    #         print(i.text)
+    #     e[0].click()
     def login(self,name,pas,zt_name):
         self.get_by_local.get_element('login_button_one').click()
         self.get_by_local.get_element('username').send_keys(name)
@@ -93,14 +85,13 @@ class Public_fu(object):
         time.sleep(3)
 
     def login_fn(self,usernamem,password,zhangtao_name):
-
+        #点击同意
         self.get_by_local.get_element("agree").click()
         try:
             self.get_by_local.get_element("Get_permission").click()
             self.get_by_local.get_element("Get_permission").click()
         except:
             print("跳过获取权限")
-
         #滑动
         self.swipe_left()
         self.swipe_left()
