@@ -34,12 +34,12 @@ class CaseTest(ParameTestCase):
         print ("this is setup")
 
 
-    def test_01(self):
+    def test_01_login_user_error(self):
         print ("测试登录错误")
         self.login_business.login_user_error()
         self.assertTrue(True)
 
-    def test_02(self):
+    def test_02_login_pass(self):
         print ("测试登录成功")
         self.login_business.login_pass()
 
@@ -69,8 +69,8 @@ class appium_init():
 def get_suite(i):
     print ("get_suite里面的",i)
     suite = unittest.TestSuite()
-    suite.addTest(CaseTest("test_02",parame=i))
-    suite.addTest(CaseTest("test_01",parame=i))
+    suite.addTest(CaseTest("test_01_login_user_error",parame=i))
+    suite.addTest(CaseTest("test_02_login_pass",parame=i))
     # unittest.TextTestRunner().run(suite)
     from pathlib import Path
     name=Path(__file__).name.split(".py")[0]
@@ -92,7 +92,6 @@ if __name__ == '__main__':
     appium_init().get_main()
     threads = []
     for i in range(get_count()):
-        print (i)
         t = multiprocessing.Process(target=get_suite,args=(i,))
         threads.append(t)
     for j in threads:

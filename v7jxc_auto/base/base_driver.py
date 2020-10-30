@@ -3,20 +3,20 @@ import time
 from appium import webdriver
 from v7jxc_auto.util.write_user_command import WriteUserCommand
 from v7jxc_auto.util.findElement import FindElement
-
+from v7jxc_auto.util.logger import Log
 
 class BaseDriver():
     def android_driver(self,i):
-
-        print ("this is android_driver:",i)
+        lg=Log()
+        lg.info("this is android_driver:%s" % i)
 
         write_file = WriteUserCommand()
         devices = write_file.get_value('user_info_'+str(i),'deviceName')
         port = write_file.get_value('user_info_'+str(i),'port')
 
+        lg.info(devices)
+        lg.info(port)
 
-        print(devices)
-        print(port)
 
         capabilities = {
             "platformName": "Android",

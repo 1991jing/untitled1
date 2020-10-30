@@ -6,21 +6,34 @@ class LoginBusiness(object):
     def __init__(self,i):
         self.login_handle = LoginHandle(i)
 
-    def login_button_one_click(self):
-        self.login_handle.click_loginone_button()
-
-    def get_click_menu_yingyong_button(self):
-        self.login_handle.click_menu_yingyong_button()
+    # def login_button_one_click(self):
+    #     self.login_handle.click_loginone_button()
+    #
+    # def get_click_menu_yingyong_button(self):
+    #     self.login_handle.click_menu_yingyong_button()
 
 
     def login_pass(self):
 
+        self.login_handle.click_agree()
+        try:
+            self.login_handle.click_auth()
+            self.login_handle.click_auth()
+        except:
+            print("没有点击权限")
+        self.login_handle.click_loginone_button()
         self.login_handle.send_username('kingdeetestv3')
         self.login_handle.send_password('a1234567')
         self.login_handle.click_login()
 
     def login_user_error(self):
-
+        # self.login_handle.click_agree()
+        # try:
+        #     self.login_handle.click_auth()
+        #     self.login_handle.click_auth()
+        # except:
+        #     print("没有点击权限")
+        # self.login_handle.click_loginone_button()
         self.login_handle.send_username('kingdeetestv')
         self.login_handle.send_password('a1234567')
         self.login_handle.click_login()
@@ -31,7 +44,13 @@ class LoginBusiness(object):
             return False
 
     def login_password_error(self):
-
+        # self.login_handle.click_agree()
+        # try:
+        #     self.login_handle.click_auth()
+        #     self.login_handle.click_auth()
+        # except:
+        #     print("没有点击权限")
+        # self.login_handle.click_loginone_button()
         self.login_handle.send_username('kingdeetestv3')
         self.login_handle.send_password('111112')
         self.login_handle.click_login()

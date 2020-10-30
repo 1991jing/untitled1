@@ -16,7 +16,7 @@ print("---测试开始---")
 mobileEmulation = {'deviceName': 'Galaxy S5'} # iPhone X
 options = webdriver.ChromeOptions()
 options.add_experimental_option('mobileEmulation', mobileEmulation)
-driver = webdriver.Chrome(executable_path="C:/Users/Administrator/AppData/Local/Google/Chrome/Application/chromedriver.exe",chrome_options=options)
+driver = webdriver.Chrome(executable_path="D:/v7app_auto/untitled1/v7jxc_auto/data/chromedriver.exe",chrome_options=options)
 driver.get('https://m.jdy.com/')
 time.sleep(5)
 print(0)

@@ -1,8 +1,5 @@
 # coding=utf-8
-import sys
-# from HtmlTestRunner import *
 
-import HTMLTestRunner
 import os,sys
 from BeautifulReport import BeautifulReport
 
@@ -40,11 +37,6 @@ class CaseTest(ParameTestCase):
         print ("this is setup")
 
 
-    def test_get_purchase_order(self):
-        print ("采购1个商品")
-        self.caigou_buiness.get_purchase_order()
-        self.assertTrue(True)
-
 
     def test_get_sale_orde(self):
         print ("销售订单下推销售出库单")
@@ -54,11 +46,8 @@ class CaseTest(ParameTestCase):
 
 
     def tearDown(self):
-        self.caigou_buiness.quit_driver()
         print ("this is teardown")
-        # if sys.exc_info()[0]:
-        #     self.caigou_buiness.caigou_handle.login_page.driver.save_screenshot("../data/test033.png")
-        # time.sleep(1)
+
 
     @classmethod
     def tearDownClass(cls):
@@ -68,7 +57,6 @@ class CaseTest(ParameTestCase):
 
 def get_suite(i):
     suite = unittest.TestSuite()
-    #suite.addTest(CaseTest("test_get_purchase_order",parame=i))
     suite.addTest(CaseTest("test_get_sale_orde",parame=i))
     from pathlib import Path
     name=Path(__file__).name.split(".py")[0]
@@ -101,7 +89,6 @@ if __name__ == '__main__':
     appium_init().get_main()
     threads = []
     for i in range(get_count()):
-        print (i)
         t = multiprocessing.Process(target=get_suite,args=(i,))
         threads.append(t)
     for j in threads:

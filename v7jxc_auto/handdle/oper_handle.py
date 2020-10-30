@@ -5,12 +5,17 @@ class LoginHandle:
     def __init__(self,i):
         self.login_page = LoginPage(i)
 
+
     # 操作登录页面的元素
-    def send_username(self, user):
-        '''
-        输入用户名
-        '''
+    def send_username(self,user):
+        #输入用户名
         self.login_page.get_username_element().send_keys(user)
+
+    def click_agree(self):
+         self.login_page.get_agree_element().click()
+
+    def click_auth(self):
+        self.login_page.get_auth_element().click()
 
     def send_password(self, password):
         '''

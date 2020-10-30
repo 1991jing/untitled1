@@ -5,7 +5,9 @@ import sys
 import HTMLTestRunner
 import os,sys
 from BeautifulReport import BeautifulReport
+from v7jxc_auto.util.logger import Log
 
+#在cmd下能执行
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 PathProject = os.path.split(rootPath)[0]
@@ -24,38 +26,43 @@ class ParameTestCase(unittest.TestCase):
     def __init__(self, methodName='runTest', parame=None):
         super(ParameTestCase, self).__init__(methodName)
         self.param = parame
+        self.lg=Log()
         global params
         params = parame
 
 
 class CaseTest(ParameTestCase):
+    # 定义一个保存截图函数
+    def save_img(self, img_name):
+        self.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath("E:/test/auto_test_local/Auto_Test/img"), img_name))
+
     @classmethod
     def setUpClass(cls):
         global params
+
         print("这个是setupclass里面的参数:", params)
         cls.caigou_buiness = CaigouBusiness(params)
 
     def setUp(self):
         self.driver=self.caigou_buiness.driver
-        print ("this is setup")
+        self.lg.info("this is setup")
 
 
     def test_get_purchase_order(self):
-        print ("采购1个商品")
+        self.lg.info("采购1个商品")
         self.caigou_buiness.get_purchase_order()
         self.assertTrue(True)
 
 
     def test_get_sale_orde(self):
-        print ("销售订单下推销售出库单")
+        self.lg.info("销售订单下推销售出库单")
         self.caigou_buiness.get_sale_order()
 
         self.assertTrue(True)
 
 
     def tearDown(self):
-        self.caigou_buiness.quit_driver()
-        print ("this is teardown")
+        self.lg.info("this is teardown")
         # if sys.exc_info()[0]:
         #     self.caigou_buiness.caigou_handle.login_page.driver.save_screenshot("../data/test033.png")
         # time.sleep(1)
@@ -64,9 +71,9 @@ class CaseTest(ParameTestCase):
     def tearDownClass(cls):
         Server=appium_init()
         Server.kill_appium()
-        print ("this is class teardown")
 
 def get_suite(i):
+
     suite = unittest.TestSuite()
     suite.addTest(CaseTest("test_get_purchase_order",parame=i))
     suite.addTest(CaseTest("test_get_sale_orde",parame=i))
@@ -92,6 +99,7 @@ class appium_init():
         self.server.kill_server()
 
 
+
 def get_count():
     write_user_file = WriteUserCommand()
     count = write_user_file.get_file_lines()
@@ -101,7 +109,6 @@ if __name__ == '__main__':
     appium_init().get_main()
     threads = []
     for i in range(get_count()):
-        print (i)
         t = multiprocessing.Process(target=get_suite,args=(i,))
         threads.append(t)
     for j in threads:

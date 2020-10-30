@@ -1,19 +1,21 @@
 #coding=utf-8
 import os
-
+from v7jxc_auto.util.logger import Log
 class DosCmd:
     def excute_cmd_result(self,command):
+        lg= Log()
         result_list = []
         result = os.popen(command).readlines()
-        print(result)
+        lg.info(result)
+        lg.info("=======================================================================================================================================")
+
         for i in result:
-            if i =='\n':
-                continue
-            result_list.append(i.strip('\n'))
+                if i =='\n':
+                    continue
+                result_list.append(i.strip('\n'))
         return result_list
 
     def excute_cmd(self,command):
-
         # os.putenv("Path","D:\\tool\\sdk\\tools")
         os.system(command)
 
@@ -22,6 +24,5 @@ if __name__ == '__main__':
 
     # os.system('chcp 65001')
 
-    print(dos.excute_cmd("adb devices"))
     dos.excute_cmd_result("adb devices")
-    #print(dos.excute_cmd('appium -p 4700 -bp 4701 -U 127.0.0.1:21503'))
+    dos.excute_cmd('appium -p 4700 -bp 4701 -U NAB0220629016963')

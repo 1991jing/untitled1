@@ -5,7 +5,7 @@ class FindElement(object):
     def __init__(self,driver):
         self.driver = driver
 
-    def get_element(self,key,meg=None):
+    def get_element(self, key: object, meg: object = None) -> object:
 
         read_int = ReadIni(node=meg)
         data = read_int.get_value(key)

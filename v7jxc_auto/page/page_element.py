@@ -14,6 +14,11 @@ class LoginPage(object):
         self.driver = base_driver.android_driver(i)
         self.fd = FindElement(self.driver)
 
+    def get_agree_element(self):
+        return self.fd.get_element("agree")
+
+    def get_auth_element(self):
+        return self.fd.get_element("Get_permission")
 
 
     def get_username_element(self):

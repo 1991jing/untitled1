@@ -12,10 +12,12 @@ options.add_experimental_option('mobileEmulation', mobileEmulation)
 driver = webdriver.Chrome(
     executable_path="C:/Users/kingdee/AppData/Local/Google/Chrome/Application/chromedriver.exe",
     chrome_options=options)
-driver.get('https://m.jdy.com/')
+driver.get(' https://order.jdy.com/url?orderky4Bsa8JdCVns3Z')
 time.sleep(5)
+
+
 #这一步偶尔失焦点击不到
-driver.find_element_by_xpath("/html/body/div[1]/div").click()
+driver.find_element_by_xpath("//*[@id='app']/div/div[1]/div/div/div/div/div/div/div/div[3]/div[2]/div/div").click()
 driver.find_element_by_id("user").click()
 
 time.sleep(2)

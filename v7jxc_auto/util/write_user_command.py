@@ -6,7 +6,7 @@ class WriteUserCommand:
 		加载yaml数据
 		'''
 		with open("../data/userconfig.yaml") as fr:
-			data = yaml.load(fr)
+			data = yaml.load(fr, Loader=yaml.FullLoader)
 		return data
 
 	def get_value(self,key,port):
@@ -43,6 +43,8 @@ class WriteUserCommand:
 	def get_file_lines(self):
 		data = self.read_data()
 		return len(data)
+
+
 
 
 if __name__ == '__main__':
