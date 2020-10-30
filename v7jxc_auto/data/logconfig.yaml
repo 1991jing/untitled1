@@ -1,0 +1,58 @@
+disable_existing_loggers: false
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: DEBUG
+    stream: ext://sys.stdout
+  debug_file_handler:
+    backupCount: 20
+    class: logging.handlers.RotatingFileHandler
+    encoding: utf8
+    filename: D://v7app_auto//untitled1//v7jxc_auto//log//debug.log
+    formatter: simple
+    level: DEBUG
+    maxBytes: 10485760
+  error_file_handler:
+    backupCount: 20
+    class: logging.handlers.RotatingFileHandler
+    encoding: utf8
+    filename: D://v7app_auto//untitled1//v7jxc_auto//log//errors.log
+    formatter: simple
+    level: ERROR
+    maxBytes: 10485760
+#  info_file_handler:
+#    backupCount: 3
+#    class: logging.handlers.RotatingFileHandler
+#    encoding: utf8
+#    filename: D://v7app_auto//untitled1//v7jxc_auto//log//info.log
+#    formatter: simple
+#    level: INFO
+#    maxBytes: 10485760
+
+  info_file_handler:
+    backupCount: 3
+    class: logging.handlers.RotatingFileHandler
+    encoding: utf8
+    filename: D://v7app_auto//untitled1//v7jxc_auto//log//info.log
+    formatter: simple
+    level: INFO
+#    when: 'D'
+#    interval: 1
+loggers:
+  my_module:
+    handlers:
+    - debug_file_handler
+    level: DEBUG
+    propagate: 'no'
+    filemode: "a"
+root:
+  handlers:
+  - console
+  - info_file_handler
+  - error_file_handler
+  level: INFO
+version: 1

@@ -1,0 +1,459 @@
+2020-10-23 19:55:31,013 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 19:55:31,013 - jxc_v7_app - INFO - ['NAB0220629016963']
+2020-10-23 19:55:31,374 - jxc_v7_app - INFO - []
+2020-10-23 19:55:31,486 - jxc_v7_app - INFO - []
+2020-10-23 19:55:31,583 - jxc_v7_app - INFO - []
+2020-10-23 19:55:46,759 - jxc_v7_app - INFO - NAB0220629016963
+2020-10-23 19:55:46,759 - jxc_v7_app - INFO - 4700
+2020-10-23 19:56:35,495 - jxc_v7_app - INFO - this is setup
+2020-10-23 19:56:35,495 - jxc_v7_app - INFO - 采购1个商品
+2020-10-23 19:56:48,624 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:56:54,471 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:56:57,217 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:56:57,222 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:56:59,861 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:56:59,866 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:02,394 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:02,401 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:04,968 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:04,973 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:07,504 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:07,512 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:10,079 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:10,084 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:12,623 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:12,629 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:15,283 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:15,291 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:18,088 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:18,095 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:20,839 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:20,844 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:23,411 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:23,416 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:26,163 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:26,169 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:28,700 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:28,705 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:31,206 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:31,212 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:38,987 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:38,992 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:42,223 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:42,228 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:44,680 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:44,685 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:47,320 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:47,326 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:49,826 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:49,832 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:52,403 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:52,410 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:52,582 - jxc_v7_app - INFO - 打印订单编号:CGRK-20201023-00082
+2020-10-23 19:57:55,083 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:55,088 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:57:57,627 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:57:57,860 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):NATIVE_APP
+2020-10-23 19:58:01,055 - jxc_v7_app - INFO - this is setup
+2020-10-23 19:58:01,055 - jxc_v7_app - INFO - 销售订单下推销售出库单
+2020-10-23 19:58:13,801 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:19,613 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:22,422 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:22,428 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:24,965 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:24,970 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:30,976 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:30,982 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:33,573 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:33,578 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:36,330 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:36,335 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:38,835 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:38,840 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:41,439 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:41,444 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:44,054 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:44,059 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:46,600 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:46,606 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:49,159 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:49,164 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:51,804 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:51,809 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:54,940 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:54,946 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:58:57,705 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:58:57,709 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:00,316 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:00,322 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:02,866 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:02,872 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:05,322 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:05,327 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:07,854 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:07,859 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:10,824 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:10,828 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:14,045 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:14,051 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:16,577 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:16,583 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:19,179 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:19,184 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:21,631 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:21,638 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:21,694 - jxc_v7_app - INFO - 打印按钮名称:<appium.webdriver.webelement.WebElement (session="00f73e97-b45f-4d40-9a97-ba9756020b19", element="0.04244895002712701-29")>
+2020-10-23 19:59:24,153 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:24,158 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:26,676 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:26,681 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:34,585 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:34,590 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:37,231 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:37,237 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:39,776 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:39,782 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:42,315 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:42,320 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:44,915 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:44,927 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:47,494 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:47,500 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:50,131 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:50,137 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:52,922 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:52,927 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:55,441 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:55,447 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 19:59:58,027 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 19:59:58,033 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:00:00,502 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 20:00:00,507 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:00:03,069 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 20:00:03,075 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:00:08,714 - jxc_v7_app - INFO - 获取页面所有的上下文:['NATIVE_APP', 'WEBVIEW_stetho_com.kingdee.jdy', 'WEBVIEW_com.kingdee.jdy']
+2020-10-23 20:00:08,719 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:00:09,276 - jxc_v7_app - INFO - =====订单下推成功=====
+2020-10-23 20:00:09,372 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:00:09,373 - jxc_v7_app - INFO - ['NAB0220629016963']
+2020-10-23 20:00:09,737 - jxc_v7_app - INFO - ['node.exe                    133356 RDP-Tcp#20                 1     79,372 K\n']
+2020-10-23 20:02:59,710 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:02:59,711 - jxc_v7_app - INFO - ['NAB0220629016963']
+2020-10-23 20:02:59,803 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:02:59,803 - jxc_v7_app - INFO - ['NAB0220629016963']
+2020-10-23 20:03:00,169 - jxc_v7_app - INFO - []
+2020-10-23 20:07:57,756 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:07:57,756 - jxc_v7_app - INFO - ==============================================
+2020-10-23 20:08:25,260 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:08:25,260 - jxc_v7_app - INFO - ================================================================================================
+2020-10-23 20:08:52,456 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:08:52,456 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:25:24,747 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:25:24,747 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:25:24,747 - jxc_v7_app - INFO - ['NAB0220629016963']
+2020-10-23 20:25:25,182 - jxc_v7_app - INFO - []
+2020-10-23 20:25:25,183 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:25:25,335 - jxc_v7_app - INFO - []
+2020-10-23 20:25:25,335 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:25:25,478 - jxc_v7_app - INFO - []
+2020-10-23 20:25:25,478 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:25:40,565 - jxc_v7_app - INFO - NAB0220629016963
+2020-10-23 20:25:40,566 - jxc_v7_app - INFO - 4700
+2020-10-23 20:26:30,295 - jxc_v7_app - INFO - this is setup
+2020-10-23 20:26:30,295 - jxc_v7_app - INFO - 采购1个商品
+2020-10-23 20:26:35,295 - jxc_v7_app - INFO - 点击采购应用
+2020-10-23 20:26:49,073 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:26:49,073 - jxc_v7_app - INFO - 点击新增
+2020-10-23 20:26:51,815 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:26:51,815 - jxc_v7_app - INFO - 选择河源供应商
+2020-10-23 20:26:54,415 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:26:56,963 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:26:56,964 - jxc_v7_app - INFO - 添加商品
+2020-10-23 20:26:59,530 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:26:59,530 - jxc_v7_app - INFO - 点击选择仓库
+2020-10-23 20:27:02,076 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:04,684 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:04,684 - jxc_v7_app - INFO - 搜索'益达'商品
+2020-10-23 20:27:07,242 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:07,242 - jxc_v7_app - INFO - 确定商品
+2020-10-23 20:27:09,847 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:09,847 - jxc_v7_app - INFO - 输入商品数量：10
+2020-10-23 20:27:10,131 - jxc_v7_app - INFO - 确定
+2020-10-23 20:27:12,602 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:12,602 - jxc_v7_app - INFO - 下单
+2020-10-23 20:27:15,391 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:15,391 - jxc_v7_app - INFO - 结算
+2020-10-23 20:27:18,042 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:18,042 - jxc_v7_app - INFO - 输入账户，填写金额
+2020-10-23 20:27:20,815 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:23,318 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:25,834 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:29,161 - jxc_v7_app - INFO - 下单
+2020-10-23 20:27:31,492 - jxc_v7_app - INFO - 跳转到采购列表，按日期，审核状态筛选刚才的开单单据，并审核
+2020-10-23 20:27:33,708 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:36,910 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:39,444 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:42,058 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:44,567 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:47,174 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:47,311 - jxc_v7_app - INFO - 打印订单编号:CGRK-20201023-00083
+2020-10-23 20:27:49,880 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:27:52,813 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):NATIVE_APP
+2020-10-23 20:27:56,006 - jxc_v7_app - INFO - this is teardown
+2020-10-23 20:27:56,007 - jxc_v7_app - INFO - this is setup
+2020-10-23 20:27:56,007 - jxc_v7_app - INFO - 销售订单下推销售出库单
+2020-10-23 20:28:01,007 - jxc_v7_app - INFO - 点击销售订单
+2020-10-23 20:28:14,517 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:14,517 - jxc_v7_app - INFO - 新增销售单，选择客户-商品-选择仓库-输入数量-确定下单
+2020-10-23 20:28:17,280 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:19,828 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:25,730 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:28,338 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:31,060 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:33,604 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:36,230 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:38,814 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:41,324 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:43,897 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:46,489 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:49,677 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:52,434 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:55,031 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:28:57,603 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:00,076 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:02,652 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:03,419 - jxc_v7_app - INFO - 销售订单下推成销售出库单
+2020-10-23 20:29:05,637 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:08,787 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:11,297 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:13,963 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:16,497 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:16,615 - jxc_v7_app - INFO - 打印按钮名称:未审核
+2020-10-23 20:29:19,112 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:21,667 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:27,440 - jxc_v7_app - INFO - 审核后的订单出库
+2020-10-23 20:29:29,682 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:32,486 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:35,078 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:37,566 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:40,148 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:42,703 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:45,287 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:48,552 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:51,123 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:53,798 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:56,206 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:29:58,778 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:30:04,482 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:30:05,060 - jxc_v7_app - INFO - =====订单下推成功=====
+2020-10-23 20:30:05,061 - jxc_v7_app - INFO - this is teardown
+2020-10-23 20:30:05,157 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:30:05,157 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:30:05,157 - jxc_v7_app - INFO - ['NAB0220629016963']
+2020-10-23 20:30:05,530 - jxc_v7_app - INFO - ['node.exe                     74924 RDP-Tcp#20                 1    105,180 K\n']
+2020-10-23 20:30:05,531 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:32:45,704 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:32:45,704 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:32:45,789 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:32:45,789 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:32:46,167 - jxc_v7_app - INFO - []
+2020-10-23 20:32:46,167 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:32:46,167 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:34:47,257 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:34:47,257 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:34:47,646 - jxc_v7_app - INFO - []
+2020-10-23 20:34:47,646 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:34:47,646 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:37:19,021 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:37:19,021 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:37:19,381 - jxc_v7_app - INFO - []
+2020-10-23 20:37:19,382 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:37:19,382 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:37:19,489 - jxc_v7_app - INFO - []
+2020-10-23 20:37:19,489 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:37:19,607 - jxc_v7_app - INFO - ['  TCP    127.0.0.1:4900         0.0.0.0:0              LISTENING       129068\n']
+2020-10-23 20:37:19,608 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:37:19,728 - jxc_v7_app - INFO - []
+2020-10-23 20:37:19,728 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:37:34,779 - jxc_v7_app - INFO - NAB0220629016963
+2020-10-23 20:37:34,779 - jxc_v7_app - INFO - 4700
+2020-10-23 20:38:24,690 - jxc_v7_app - INFO - this is setup
+2020-10-23 20:38:24,690 - jxc_v7_app - INFO - 采购1个商品
+2020-10-23 20:38:29,690 - jxc_v7_app - INFO - 点击采购应用
+2020-10-23 20:38:43,721 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:43,721 - jxc_v7_app - INFO - 点击新增
+2020-10-23 20:38:46,446 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:46,446 - jxc_v7_app - INFO - 选择河源供应商
+2020-10-23 20:38:49,046 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:51,635 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:51,635 - jxc_v7_app - INFO - 添加商品
+2020-10-23 20:38:54,185 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:54,185 - jxc_v7_app - INFO - 点击选择仓库
+2020-10-23 20:38:56,698 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:59,252 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:38:59,252 - jxc_v7_app - INFO - 搜索'益达'商品
+2020-10-23 20:39:01,813 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:01,813 - jxc_v7_app - INFO - 确定商品
+2020-10-23 20:39:04,387 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:04,387 - jxc_v7_app - INFO - 输入商品数量：10
+2020-10-23 20:39:04,694 - jxc_v7_app - INFO - 确定
+2020-10-23 20:39:07,235 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:07,235 - jxc_v7_app - INFO - 下单
+2020-10-23 20:39:10,016 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:10,016 - jxc_v7_app - INFO - 结算
+2020-10-23 20:39:12,616 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:12,617 - jxc_v7_app - INFO - 输入账户，填写金额
+2020-10-23 20:39:15,400 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:17,990 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:20,488 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:23,783 - jxc_v7_app - INFO - 下单
+2020-10-23 20:39:26,066 - jxc_v7_app - INFO - 跳转到采购列表，按日期，审核状态筛选刚才的开单单据，并审核
+2020-10-23 20:39:28,312 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:31,524 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:34,040 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:36,620 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:39,097 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:41,728 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:41,835 - jxc_v7_app - INFO - 打印订单编号:CGRK-20201023-00084
+2020-10-23 20:39:44,350 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:39:47,154 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):NATIVE_APP
+2020-10-23 20:39:50,350 - jxc_v7_app - INFO - this is teardown
+2020-10-23 20:39:50,350 - jxc_v7_app - INFO - this is setup
+2020-10-23 20:39:50,350 - jxc_v7_app - INFO - 销售订单下推销售出库单
+2020-10-23 20:39:55,350 - jxc_v7_app - INFO - 点击销售订单
+2020-10-23 20:40:08,960 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:08,960 - jxc_v7_app - INFO - 新增销售单，选择客户-商品-选择仓库-输入数量-确定下单
+2020-10-23 20:40:11,773 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:14,350 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:20,235 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:22,828 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:25,593 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:28,094 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:30,737 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:33,272 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:35,717 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:38,265 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:40,837 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:44,107 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:46,923 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:49,572 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:52,108 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:54,678 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:57,261 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:40:58,040 - jxc_v7_app - INFO - 销售订单下推成销售出库单
+2020-10-23 20:41:00,317 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:03,509 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:06,053 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:08,710 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:11,188 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:11,296 - jxc_v7_app - INFO - 打印按钮名称:未审核
+2020-10-23 20:41:13,841 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:16,383 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:22,314 - jxc_v7_app - INFO - 审核后的订单出库
+2020-10-23 20:41:24,559 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:27,225 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:29,724 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:32,241 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:34,831 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:37,326 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:39,942 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:43,339 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:45,834 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:48,488 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:50,966 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:53,609 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:59,317 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_stetho_com.kingdee.jdy
+2020-10-23 20:41:59,694 - jxc_v7_app - INFO - =====订单下推成功=====
+2020-10-23 20:41:59,694 - jxc_v7_app - INFO - this is teardown
+2020-10-23 20:41:59,805 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:41:59,805 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:42:00,183 - jxc_v7_app - INFO - ['node.exe                    135908 RDP-Tcp#20                 1     74,812 K\n']
+2020-10-23 20:42:00,183 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:42:00,479 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:49:05,921 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:49:05,921 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:49:06,299 - jxc_v7_app - INFO - []
+2020-10-23 20:49:06,299 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:49:06,299 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:49:06,406 - jxc_v7_app - INFO - []
+2020-10-23 20:49:06,406 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:49:06,532 - jxc_v7_app - INFO - []
+2020-10-23 20:49:06,532 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:49:06,532 - jxc_v7_app - INFO - 执行启用appium服务命令：s%
+2020-10-23 20:50:00,155 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:50:00,155 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:50:00,531 - jxc_v7_app - INFO - []
+2020-10-23 20:50:00,531 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:50:00,531 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:50:00,635 - jxc_v7_app - INFO - []
+2020-10-23 20:50:00,635 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:50:00,735 - jxc_v7_app - INFO - []
+2020-10-23 20:50:00,735 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:50:00,735 - jxc_v7_app - INFO - 执行启用appium服务命令：s%
+2020-10-23 20:52:49,047 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:52:49,047 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:52:49,410 - jxc_v7_app - INFO - []
+2020-10-23 20:52:49,410 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:52:49,410 - jxc_v7_app - INFO - 已关闭Appium服务进程
+2020-10-23 20:52:49,533 - jxc_v7_app - INFO - []
+2020-10-23 20:52:49,533 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:52:49,649 - jxc_v7_app - INFO - []
+2020-10-23 20:52:49,649 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:52:49,649 - jxc_v7_app - INFO - 执行启用appium服务命令：appium -p 4700 -bp 4900 -U NAB0220629016963 --no-reset --session-override --log D:/v7app_auto/untitled1/v7jxc_auto/log/test_log.log
+2020-10-23 20:53:04,798 - jxc_v7_app - INFO - this is android_driver:0
+2020-10-23 20:53:04,799 - jxc_v7_app - INFO - NAB0220629016963
+2020-10-23 20:53:04,799 - jxc_v7_app - INFO - 4700
+2020-10-23 20:54:14,532 - jxc_v7_app - INFO - this is setup
+2020-10-23 20:54:14,532 - jxc_v7_app - INFO - 采购1个商品
+2020-10-23 20:54:19,533 - jxc_v7_app - INFO - 点击采购应用
+2020-10-23 20:54:33,324 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:33,324 - jxc_v7_app - INFO - 点击新增
+2020-10-23 20:54:36,248 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:36,248 - jxc_v7_app - INFO - 选择河源供应商
+2020-10-23 20:54:38,972 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:41,703 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:41,703 - jxc_v7_app - INFO - 添加商品
+2020-10-23 20:54:44,294 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:44,294 - jxc_v7_app - INFO - 点击选择仓库
+2020-10-23 20:54:46,963 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:49,624 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:49,624 - jxc_v7_app - INFO - 搜索'益达'商品
+2020-10-23 20:54:52,291 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:52,291 - jxc_v7_app - INFO - 确定商品
+2020-10-23 20:54:55,035 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:55,035 - jxc_v7_app - INFO - 输入商品数量：10
+2020-10-23 20:54:55,339 - jxc_v7_app - INFO - 确定
+2020-10-23 20:54:57,950 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:54:57,950 - jxc_v7_app - INFO - 下单
+2020-10-23 20:55:00,852 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:00,852 - jxc_v7_app - INFO - 结算
+2020-10-23 20:55:03,628 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:03,628 - jxc_v7_app - INFO - 输入账户，填写金额
+2020-10-23 20:55:06,563 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:09,247 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:11,844 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:15,117 - jxc_v7_app - INFO - 下单
+2020-10-23 20:55:17,439 - jxc_v7_app - INFO - 跳转到采购列表，按日期，审核状态筛选刚才的开单单据，并审核
+2020-10-23 20:55:19,867 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:23,199 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:25,893 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:28,701 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:31,325 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:34,057 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:34,199 - jxc_v7_app - INFO - 打印订单编号:CGRK-20201023-00085
+2020-10-23 20:55:36,878 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:55:39,918 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):NATIVE_APP
+2020-10-23 20:55:43,124 - jxc_v7_app - INFO - this is teardown
+2020-10-23 20:55:43,124 - jxc_v7_app - INFO - this is setup
+2020-10-23 20:55:43,124 - jxc_v7_app - INFO - 销售订单下推销售出库单
+2020-10-23 20:55:48,124 - jxc_v7_app - INFO - 点击销售订单
+2020-10-23 20:56:02,018 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:56:02,018 - jxc_v7_app - INFO - 新增销售单，选择客户-商品-选择仓库-输入数量-确定下单
+2020-10-23 20:56:04,959 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:56:07,703 - jxc_v7_app - INFO - 获取当前窗口的上下文(切换后):WEBVIEW_com.kingdee.jdy
+2020-10-23 20:58:10,937 - jxc_v7_app - INFO - this is teardown
+2020-10-23 20:58:11,136 - jxc_v7_app - INFO - ['List of devices attached\n', 'NAB0220629016963\tdevice\n', '\n']
+2020-10-23 20:58:11,136 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:58:11,520 - jxc_v7_app - INFO - ['node.exe                    132592 RDP-Tcp#20                 1     78,760 K\n']
+2020-10-23 20:58:11,520 - jxc_v7_app - INFO - =======================================================================================================================================
+2020-10-23 20:58:11,776 - jxc_v7_app - INFO - 已关闭Appium服务进程
