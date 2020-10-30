@@ -3,7 +3,7 @@ from read_init import ReadIni
 class GetByLocal:
 	def __init__(self,driver):
 		self.driver = driver
-	def get_element(self,key):
+	def get_element(self, key: object) -> object:
 		read_ini = ReadIni()
 		local = read_ini.get_value(key)
 		if local != None:

@@ -75,7 +75,7 @@ class ActionMethod:
         y = self.get_size()[1] / 10 * 9
         self.driver.swipe(x1, y1, x1, y)
 
-    def get_element(self, *args):
+    def get_element(self, args: object) -> object:
         element = self.get_by_local.get_element(args[0])
         if element == None:
             return None
